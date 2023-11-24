@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "XmlMerge": {
+      "commandName": "Project",
+      "commandLineArgs": "print ..\\test_data\\out\\outpdut.trx",
+      "workingDirectory": "C:\\Users\\jhonz\\Documents\\GitHub\\trx-merge\\XmlMerge"
+    }
+  }
+}

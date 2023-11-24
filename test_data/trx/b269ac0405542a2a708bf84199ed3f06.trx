@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1a70b97f-4bc7-42e0-8051-f3b9e12238a4" name="ContainerAdministrator@3B6F0F0C1D64 2023-10-10 12:13:11" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:13:11.7220971+02:00" queuing="2023-10-10T12:13:11.7220971+02:00" start="2023-10-10T12:12:55.9969834+02:00" finish="2023-10-10T12:19:09.8473640+02:00" />
+  <TestSettings name="default" id="b5ac7ef2-3a69-4265-b318-42ee48bee6e7">
+    <Deployment runDeploymentRoot="b269ac0405542a2a708bf84199ed3f06" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fe50bb27-1e5c-4ab3-a2eb-f1dfea3a4006" testId="5fb23bf9-06f7-12cd-111a-b34df770ef0e" testName="Designer_42233" computerName="3B6F0F0C1D64" startTime="2023-10-10T12:17:44.0217940+02:00" endTime="2023-10-10T12:17:44.0217940+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe50bb27-1e5c-4ab3-a2eb-f1dfea3a4006">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8cce8c7-1664-4805-8c39-007a1447ec61" testId="2fa18d3d-ca92-411f-bf8e-edf498c6f1c8" testName="Export_Test_3_QM859" computerName="3B6F0F0C1D64" duration="00:00:18.8767133" startTime="2023-10-10T12:18:30.9008155+02:00" endTime="2023-10-10T12:18:49.7653591+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8cce8c7-1664-4805-8c39-007a1447ec61">
+      <Output>
+        <StdOut>[12:18:30]  Start Test: Export_Test_3_QM859&#xD;
+[12:18:31]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Configuration.mdb&#xD;
+[12:18:35]  Setting current database Standard&#xD;
+[12:18:36]  E3 OpenJob&#xD;
+[12:18:37]  Doing repaircheck...&#xD;
+[12:18:37]  Toolstart-Parameter: -b -d export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_3.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_3_QM859.log" -processid 14740&#xD;
+[12:18:38]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:18:49]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:18:49]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-49_Export_Test_3_QM859_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-49_Export_Test_3_QM859_ref_temp.xml&#xD;
+[12:18:49]  Test Export_Test_3_QM859 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:18:49]  Test  3DRoutingBridge is successful!&#xD;
+[12:18:49]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e13fb6b-d2fe-4d5d-b124-9c734fd52c50" testId="28c6ed95-fcac-483d-81ee-6b0945122729" testName="Elsa_02156" computerName="3B6F0F0C1D64" duration="00:00:15.3743668" startTime="2023-10-10T12:17:44.0217940+02:00" endTime="2023-10-10T12:17:59.4037332+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e13fb6b-d2fe-4d5d-b124-9c734fd52c50">
+      <Output>
+        <StdOut>[12:17:44]  Start Test: Elsa_02156&#xD;
+[12:17:44]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\..\Databases\Standard\Configuration.mdb&#xD;
+[12:17:49]  Setting current database Standard&#xD;
+[12:17:50]  E3 OpenJob&#xD;
+[12:17:50]  Doing repaircheck...&#xD;
+[12:17:50]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\Elsa_02156.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\NX_Elsa_02156.log" -processid 14740&#xD;
+[12:17:50]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:17:59]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:17:59]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\2023-10-10--12-17-59_Elsa_02156_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\2023-10-10--12-17-59_Elsa_02156_ref_temp.plmxml&#xD;
+[12:17:59]  Test Elsa_02156 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:17:59]  Test  3DRoutingBridge is successful!&#xD;
+[12:17:59]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db73fc8e-5cc8-4ebc-84d9-0d45e8bb3a5b" testId="3327c070-3e54-4f9f-b7e0-f92498d9af78" testName="Designer_33296" computerName="3B6F0F0C1D64" duration="00:00:17.1890814" startTime="2023-10-10T12:13:59.1861543+02:00" endTime="2023-10-10T12:14:16.3840159+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db73fc8e-5cc8-4ebc-84d9-0d45e8bb3a5b">
+      <Output>
+        <StdOut>[12:13:59]  Start Test: Designer_33296&#xD;
+[12:14:00]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:04]  Setting current database Standard&#xD;
+[12:14:05]  E3 OpenJob&#xD;
+[12:14:06]  Doing repaircheck...&#xD;
+[12:14:06]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\Designer_33296.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\NX_Designer_33296.log" -processid 14740&#xD;
+[12:14:06]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:16]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:16]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\2023-10-10--12-14-16_Designer_33296_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\2023-10-10--12-14-16_Designer_33296_ref_temp.plmxml&#xD;
+[12:14:16]  Test Designer_33296 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:16]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:16]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d72348dd-44ea-4fcb-a676-0bc6e369affb" testId="8c2461cb-23a4-4684-86c5-43dd47c60b48" testName="Export_Test_2_QM859" computerName="3B6F0F0C1D64" duration="00:00:15.4241580" startTime="2023-10-10T12:18:15.4721100+02:00" endTime="2023-10-10T12:18:30.9008155+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d72348dd-44ea-4fcb-a676-0bc6e369affb">
+      <Output>
+        <StdOut>[12:18:15]  Start Test: Export_Test_2_QM859&#xD;
+[12:18:16]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Configuration.mdb&#xD;
+[12:18:20]  Setting current database Standard&#xD;
+[12:18:21]  E3 OpenJob&#xD;
+[12:18:21]  Doing repaircheck...&#xD;
+[12:18:22]  Toolstart-Parameter: -b -d export -NX -selectionmode HARNESSES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_2.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_2_QM859.log" -processid 14740&#xD;
+[12:18:22]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:18:30]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:18:30]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-30_Export_Test_2_QM859_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-30_Export_Test_2_QM859_ref_temp.xml&#xD;
+[12:18:30]  Test Export_Test_2_QM859 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:18:30]  Test  3DRoutingBridge is successful!&#xD;
+[12:18:30]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a15657f-288a-4788-ab55-1e6899f746d6" testId="9240455a-94e4-4f5c-adfe-fe13e0896d64" testName="Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames" computerName="3B6F0F0C1D64" duration="00:00:22.4647861" startTime="2023-10-10T12:13:11.6940096+02:00" endTime="2023-10-10T12:13:34.1525846+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a15657f-288a-4788-ab55-1e6899f746d6">
+      <Output>
+        <StdOut>[12:13:11]  Start Test: Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames&#xD;
+[12:13:12]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\..\Databases\Standard\Configuration.mdb&#xD;
+[12:13:17]  Setting current database Standard&#xD;
+[12:13:17]  E3 open project&#xD;
+[12:13:18]  Doing repaircheck...&#xD;
+[12:13:18]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:13:32]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:13:33]  test.NAME: Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames&#xD;
+[12:13:33]  preparedOutputFile: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\Results2\2023-10-10--12-13-32_Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames_temp.xml&#xD;
+[12:13:33]  preparedReferenceFile: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\Results2\2023-10-10--12-13-32_Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames_ref_temp.xml&#xD;
+[12:13:33]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\Results2\2023-10-10--12-13-32_Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\Results2\2023-10-10--12-13-32_Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames_ref_temp.xml&#xD;
+[12:13:33]  Test Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:13:33]  Der Test  3DRoutingBridge is successful!&#xD;
+[12:13:33]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef54aa93-5873-4400-ac39-8cad3418a9d7" testId="4ac8240d-0d41-4395-ae12-9885de232d56" testName="Export_Test_4_QM859" computerName="3B6F0F0C1D64" duration="00:00:19.2644469" startTime="2023-10-10T12:18:49.7809832+02:00" endTime="2023-10-10T12:19:09.1010420+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef54aa93-5873-4400-ac39-8cad3418a9d7">
+      <Output>
+        <StdOut>[12:18:49]  Start Test: Export_Test_4_QM859&#xD;
+[12:18:50]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Configuration.mdb&#xD;
+[12:18:55]  Setting current database Standard&#xD;
+[12:18:56]  E3 OpenJob&#xD;
+[12:18:56]  Doing repaircheck...&#xD;
+[12:18:57]  Toolstart-Parameter: -b -d export -NX -selectionmode CABLES_AND_WIRES_GROUPED_BY_ATTRIBUTE -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_4.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_4_QM859.log" -processid 14740&#xD;
+[12:18:57]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:19:08]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:19:08]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-19-08_Export_Test_4_QM859_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-19-08_Export_Test_4_QM859_ref_temp.xml&#xD;
+[12:19:08]  Test Export_Test_4_QM859 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:19:08]  Test  3DRoutingBridge is successful!&#xD;
+[12:19:08]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Project C:\819992bc-a489-4cb1-a55c-e03487493c8f\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\myexample.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\myexample.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\NXRouting_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- wirePartName&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\Designer_23781.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\NX_Designer_23781.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'myexample' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\E3_2018_HB_WireCheck_RoutingBridge.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\E3_2018_HB_WireCheck_RoutingBridge.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+[12:19:09]  #########Logger Error: curly brackets not escaped&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002502:      1  TRY REPAIR 046: - (check_component( '%s' ): ActiveComposite '%s' found for all pins! Should be stored at the component.)&#xD;
+ E3: I - CCID:002578:      1                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 2 different check ids&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\Designer_33296.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\Results\NX_Designer_33296.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'E3_2018_HB_WireCheck_RoutingBridge' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33296\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\crimp_TS.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\crimp_TS.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+[12:19:09]  #########Logger Error: curly brackets not escaped&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002502:      1  TRY REPAIR 046: - (check_component( '%s' ): ActiveComposite '%s' found for all pins! Should be stored at the component.)&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      1 total messages with 1 different check ids&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\Designer_33800.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\NX_Designer_33800.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: W - The trigger file 'C:\Zuken\TcB\TeamcenterBridge.exe' can't be found. Please check the parameter 'TriggerFileName' in the '[Misc]' section in the file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.ini'.&#xD;
+ E3: I - Closing project 'crimp_TS' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\test1_2.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\test1_2.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: E - CCID:002658:  check_icon_data(SCHEMATIC_TYPE_ITEM/9740): invalid icon data BINDATA_ITEM/24267 found for icon_unplaced&#xD;
+ E3: E - CCID:002658:  check_icon_data(SCHEMATIC_TYPE_ITEM/9740): invalid icon data BINDATA_ITEM/24268 found for icon_placed&#xD;
+ E3: E - CCID:002658:  check_icon_data(SCHEMATIC_TYPE_ITEM/9748): invalid icon data BINDATA_ITEM/24270 found for icon_unplaced&#xD;
+ E3: E - CCID:002658:  check_icon_data(SCHEMATIC_TYPE_ITEM/9748): invalid icon data BINDATA_ITEM/24271 found for icon_placed&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25168 (0-3a-0-199b) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶CONNECTOR_PIN&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25172 (0-3a-0-199c) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶END_BOTTOM&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25176 (0-3a-0-199d) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶END_SPLIT&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25180 (0-3a-0-199e) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶END_TOP&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25184 (0-3a-0-199f) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶FULL&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25186 (0-3a-0-19a0) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ вилка¶SPLIT_BOTTOM&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25190 (0-3a-0-19a1) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶CONNECTOR_PIN&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25194 (0-3a-0-19a2) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶END_BOTTOM&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25198 (0-3a-0-19a3) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶END_SPLIT&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25202 (0-3a-0-19a4) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶END_TOP&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25206 (0-3a-0-19a5) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶FULL&#xD;
+ E3: E - CCID:002688:  check_symbol( SYMBOL_ITEM/25208 (0-3a-0-19a6) ): No mil type ('.View' attribute) defined for mil symbol Каб. символ розетка¶SPLIT_BOTTOM&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      1                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: I - CCID:002658:      4  TRY REPAIR 001: - (check_icon_data(%s): invalid icon data %s found for %s)&#xD;
+ E3: I - CCID:002688:     12                    (check_symbol( %s ): No mil type ('.View' attribute) defined for mil symbol %s)&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -     17 total messages with 3 different check ids&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\NXRouting_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- NXGUID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- NXGUID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- NXGUID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- NXGUID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- NXGUID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     	- TC_ID&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\Designer_34883.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\NX_Designer_34883.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'test1_2' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\NXExport_ohne-NXGUID.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\NXExport_ohne-NXGUID.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\NXRouting_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- wirePartName&#xD;
+ E3:     	- wireGauge&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\Designer_35104.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\NX_Designer_35104.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'NXExport_ohne-NXGUID' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\TestData\84A255401G1_Pre_Import.e3s&#xD;
+ E3: I - Updating internal structures: 100 cycles up to version 2505...&#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\TestData\84A255401G1_Pre_Import.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/001c4f64-d06a-482d-a6ca-ed66e6751604' is not unique check attvals '5237342, 5040351'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0045b8e5-7c42-4397-adb0-e9d02b4430d8' is not unique check attvals '5230046, 5120443'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/01ec4388-dfc6-4f33-b3f3-740c0d6be677' is not unique check attvals '5241937, 4979729'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/02774779-dac9-46bb-9895-8ed6cc68ea0b' is not unique check attvals '5242815, 5162981'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/02b28766-e8d7-445c-acf9-81e150636fe0' is not unique check attvals '5239109, 4949465'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/03fb4d80-a292-4269-a565-707886b650fa' is not unique check attvals '5240286, 4982589'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/077185c5-0d4e-4a1f-8f11-f7c03549cb9d' is not unique check attvals '5228649, 5057241'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/081d681d-aeed-4fb7-b7f8-1849510d738e' is not unique check attvals '5232455, 5050364'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/083a8ccf-6302-4c2e-8222-d1294f6373fc' is not unique check attvals '5221666, 5044983'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0c1ddeb2-bb41-46e1-ac2d-742c696a1e45' is not unique check attvals '5228732, 5025975'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0c2cf015-90b0-42c1-8126-56d9c2b9b3d8' is not unique check attvals '5589042, 5365179'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0c8d8c36-d1b3-4044-ab82-fd4c598d971a' is not unique check attvals '5253418, 5191820'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0e03df7d-b894-4aba-91f9-94abe7056aba' is not unique check attvals '5220074, 5169315'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0e364d50-5c5c-4287-9787-819de4fa20e7' is not unique check attvals '5229457, 5019778'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/0e83a7d2-d5ec-47af-8af5-5c59a3b06ab0' is not unique check attvals '5232413, 5160996'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1299507f-237f-4167-bc85-b47a32d9915c' is not unique check attvals '5240047, 5043186'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/151114b0-4d7a-432a-be11-9680ba444eb6' is not unique check attvals '5220583, 5051904'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/15b6f9e7-19a0-4659-9435-2e4e93e024cd' is not unique check attvals '5238679, 4992159'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/160f8b0a-51ba-41c6-9aa8-dbbd297cac64' is not unique check attvals '5228413, 5143490'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/18494ff9-e5fc-4449-8115-6ae316348c8b' is not unique check attvals '5239298, 5018055'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1a91f115-eb81-4b91-9cd8-94447c514622' is not unique check attvals '5223546, 5135563'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1b58a871-3196-462c-b4ab-571f5dc1d51d' is not unique check attvals '5229959, 5054315'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1c50dcb6-1b0a-4c71-b071-bd5f94caacf9' is not unique check attvals '5243769, 5023635'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1c6c0fd8-e98e-448f-a5bc-5557cd393905' is not unique check attvals '5228892, 4937788'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/1ebc6570-b256-478c-9622-e38cec388ca9' is not unique check attvals '5243131, 4941077'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/20f90df1-19f4-42fd-a90b-f455eb246c96' is not unique check attvals '5593812, 5366847'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2133232c-14b2-478a-bf76-54c3ac5db40f' is not unique check attvals '5245780, 4973288'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/22875af5-4a8e-462e-a0b2-65f780bbba6b' is not unique check attvals '5238774, 4946426'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/23de33c0-3c06-4c55-be2c-356665bf852a' is not unique check attvals '5234333, 5042018'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/24e80630-d63f-46d4-9c7b-90fcf344e706' is not unique check attvals '5221143, 4978736'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/24f3c956-e784-4886-beea-f6a6ed98e931' is not unique check attvals '5669388, 5470399'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/250c9254-5ed1-4d2e-9977-7736260a03f7' is not unique check attvals '5219988, 5118755'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/273b719f-98f2-48e7-b41d-a05baacae5cc' is not unique check attvals '5591910, 5366724'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/27f6ce04-18ba-47db-8050-4c503de9e390' is not unique check attvals '5673571, 5470914'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/28ef1414-4202-4b85-bbf4-a8c4523c3123' is not unique check attvals '5243182, 5040846'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2927d07d-38b3-4a59-a32b-12faf954edfc' is not unique check attvals '5240825, 5022769'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2971bd27-49d7-4acc-866f-762fb2f8b912' is not unique check attvals '5220613, 5018429'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2d58d315-1cd6-4478-ac30-291b8ea91757' is not unique check attvals '1884652, 4931828'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2dba0e9e-2444-4d3e-9639-927ae0d2f780' is not unique check attvals '5235097, 5160432'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2e200e34-dc16-4948-af14-75acea5e669e' is not unique check attvals '5253427, 4969266'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2f424ac0-00c9-433e-a0e1-5937cff4c096' is not unique check attvals '5249717, 5109874'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/2fb90164-0f78-466d-8027-3c625a2b2955' is not unique check attvals '5236734, 4927838'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/300ca53b-6744-4318-b54a-eca084c754bb' is not unique check attvals '5220281, 5052387'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/32f30ec3-7fd8-45df-ac01-fd06461dc5c1' is not unique check attvals '5221061, 4977480'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/33327ced-8f49-4f22-b933-838b2399b4f3' is not unique check attvals '5221406, 5193888'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/33a7f178-5c40-4a4a-a22f-fc114206cda1' is not unique check attvals '5236111, 5135187'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/36f1d432-c5a3-446d-a6fa-168ab0fbc923' is not unique check attvals '5249744, 5035069'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/37c5309c-22ee-40af-a275-182ff65b712d' is not unique check attvals '5238435, 4985595'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/38237e61-53aa-4216-acbf-260c1f7334fb' is not unique check attvals '5248867, 4931066'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/3a8b500c-9195-4a68-9467-3774d47e4c7d' is not unique check attvals '5236860, 5121668'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/3c91b2c1-8302-4989-8d3a-12da10dc1530' is not unique check attvals '5243877, 5064558'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/3cf012d6-9e28-496d-a0d6-c14c64ce1a23' is not unique check attvals '5229792, 5053574'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/3d7c1e96-1dca-48e8-ba54-99a183ce7339' is not unique check attvals '5221238, 5033745'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/40f4d0ab-96e2-482c-9fad-5a92e716bf37' is not unique check attvals '5232889, 5210392'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/40fa892c-c1fc-400a-9a3d-477cc051718f' is not unique check attvals '5239203, 5016695'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4156b369-51f1-4d0a-868c-11388679f644' is not unique check attvals '5234037, 5039739'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4210363c-a3a6-48c6-86ac-415a7135dd0b' is not unique check attvals '5233825, 5120929'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4354f557-7009-4718-9513-fd09c54c516b' is not unique check attvals '5219623, 4981148'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/43710b25-5f62-4862-a0e8-3158f32018db' is not unique check attvals '5248722, 5044254'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/46b30b06-5917-4d6d-a6f5-921069a00881' is not unique check attvals '5235822, 5036168'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/47d42641-a892-4805-8aa2-d4e0938e2d95' is not unique check attvals '5239625, 5044843'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/47e03f97-030d-4762-ad0b-7a95908db6c6' is not unique check attvals '5230992, 5120725'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4d0b1ecd-1ad7-409e-b854-ee7b27cca7bb' is not unique check attvals '5239406, 5062580'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4f3436e2-8356-46c2-9886-537f019a390d' is not unique check attvals '5237742, 5060171'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4f908db0-26d7-4699-bc0f-710e64eeb609' is not unique check attvals '5238474, 5025184'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/4fb2b8c8-eaae-4add-8e26-83d847dc9c60' is not unique check attvals '5222991, 5069752'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/50233252-8a6e-4065-96ae-634458a00d82' is not unique check attvals '5239902, 5063437'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/51186902-0647-4586-932b-0abcc4e105b7' is not unique check attvals '5221204, 4984815'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/53d27aaa-f546-4c2d-8171-85643573b486' is not unique check attvals '4636335, 4994756'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/540f8f7d-b8fb-4142-995f-9e7314173b08' is not unique check attvals '5235490, 5017817'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/55f1954e-b5f9-43f6-835c-4754497d3889' is not unique check attvals '5220390, 5052907'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/57ef2cf6-d5bd-4b3c-b015-c2db7985acab' is not unique check attvals '5232523, 5093770'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/5a1c05bd-b2fe-4378-876c-38fe33b69630' is not unique check attvals '5221955, 5139412'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/5a78109f-6433-4d91-acce-4d360472a678' is not unique check attvals '5249386, 5061365'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/5c0497f5-3e87-4f75-bcb0-c28c75080bdc' is not unique check attvals '5239053, 5161577'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/5d685d1e-c907-4619-8a1b-1c8b011d3cdb' is not unique check attvals '5232640, 5055124'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/5d9d7d12-682d-4a2c-be84-607419b6a4da' is not unique check attvals '5238348, 5215327'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6058678e-1915-48ac-bc8e-710e023fa7bd' is not unique check attvals '5220559, 5165777'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/618684a4-6ae9-416c-8fe9-691b9fe20c24' is not unique check attvals '5245332, 5047961'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/61c4b4ab-b691-42f0-99a9-6206a38b4a54' is not unique check attvals '5238308, 5135920'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6515f0ff-f62b-43e3-96fc-02978dbf81d9' is not unique check attvals '5242594, 5113540'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6819c925-eecc-4a90-a588-41aced7750f9' is not unique check attvals '5251726, 5217161'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/68be840e-b5f3-4c0c-8ea0-dab4133830a1' is not unique check attvals '5232262, 4947872'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6b97318d-577b-47a1-8676-8c23b26c2cbd' is not unique check attvals '5227189, 5221674'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6bc6dc9d-9021-4b5d-a377-3151e4af1759' is not unique check attvals '5229856, 5168851'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6c7575e0-f245-4c45-9557-5fc451bfe466' is not unique check attvals '5251258, 5163621'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/6f80611f-5269-427d-8dae-9dfd715b15c7' is not unique check attvals '5231916, 5049081'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/71bdd624-bd37-4071-bafd-b3b572ff3cfc' is not unique check attvals '5219539, 5140554'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/72e30ff9-7239-452f-9068-6018ca790a35' is not unique check attvals '5242772, 5012187'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/72e96cac-4520-4f1d-9132-27999e61a870' is not unique check attvals '5229018, 5130250'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/75fac196-2761-4a7b-bc1e-29f8d9838e82' is not unique check attvals '5219928, 4936247'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/769deb4e-8a4b-4d1f-a6ea-27ff0027fd0c' is not unique check attvals '5226458, 5017356'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/7a0d06e5-f04e-47c4-8650-9d91c38b8eb6' is not unique check attvals '5581450, 5364984'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/7b8620f1-7834-4fd3-9d08-3763b9d796f5' is not unique check attvals '5241979, 5038419'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/7bc7734b-3ff9-4c33-8e52-e40dbf64980d' is not unique check attvals '5243654, 5046896'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/7f57585e-9558-4fcc-a1f4-ef307e39314b' is not unique check attvals '5221715, 5024468'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/82c3f33e-64cf-456f-b7d8-6824ca9b0e3d' is not unique check attvals '5221771, 5074671'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/836c08f2-bf48-48e2-823d-f099ffb8a97e' is not unique check attvals '5221087, 5189527'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/84e56d69-c17f-4ddf-a9f5-16de7e32305b' is not unique check attvals '5239508, 5127214'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/856f1258-93b7-45be-bc6b-d9f450bdfa03' is not unique check attvals '5221530, 4975129'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/88c8eea1-92ea-436e-942f-79643e179b2b' is not unique check attvals '5238933, 5051350'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/89fa38e1-df31-4fab-aee4-9e7905acb0d2' is not unique check attvals '5245868, 5114308'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/8e573934-e786-4f1b-b64c-f8bb5514f1a4' is not unique check attvals '5243016, 5004025'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/8e645a6d-94bc-4876-a362-7cb1848103d0' is not unique check attvals '5249463, 4932142'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/8ef93d7f-a554-426e-8a09-816120211825' is not unique check attvals '5221295, 5028792'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/923031d3-6ab3-4189-9832-e5cb472cd96b' is not unique check attvals '5238884, 5033420'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/932a6a78-282d-4801-9ee0-50ee44b8b781' is not unique check attvals '5238544, 5047206'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/948ec3fc-3877-4644-9660-05c4201dc7ee' is not unique check attvals '5242503, 5168149'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/94b1dcc7-324c-4d62-b4e9-84e74ddded86' is not unique check attvals '5241120, 5017134'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/95ea0f29-9121-42b4-ad7a-474bb8dba9b8' is not unique check attvals '5238837, 5004799'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/96704fa3-d448-4b6c-92a3-360bcdf0fb23' is not unique check attvals '5221352, 5066527'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/96e198a3-20ed-47b9-b42a-b9fbbcb6beca' is not unique check attvals '5239979, 5129886'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/96f8d222-fdbc-4a49-9520-ac590d83214c' is not unique check attvals '5232037, 4928136'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/9764f890-27b9-4438-af22-2d172c15f709' is not unique check attvals '5236652, 4935179'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/979772ee-df0d-4323-81a0-fe83500f4afb' is not unique check attvals '5222040, 5197974'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/981167ec-ed2f-4036-b0b7-acfae0051e7a' is not unique check attvals '5232132, 4947019'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/98401f73-e2f2-4447-af4f-5a3e89b9ba35' is not unique check attvals '5251403, 5081975'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/98af1066-918a-4e0d-b8b1-33707c34c069' is not unique check attvals '5239794, 5190238'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/9c5ac56b-9f21-4e42-953e-9e60018b4330' is not unique check attvals '5247286, 4928333'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/9f0c25c4-63eb-4125-8991-de85ff325d98' is not unique check attvals '5242909, 5020641'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a09e9675-5939-4cb9-8053-a094c0b031d0' is not unique check attvals '5228612, 5171288'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a32b1c15-2b11-45cf-af33-b252ef1441f3' is not unique check attvals '5238585, 5076982'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a5310762-b287-4e0e-98f2-6b299a8663c8' is not unique check attvals '5220802, 5072577'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a65558e4-c94c-4152-8f01-37769d260838' is not unique check attvals '5228687, 4988623'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a73507a1-9e79-4b27-ab30-2517fdf88ba5' is not unique check attvals '5217198, 5188549'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a75f18bf-f82a-4e2a-b731-faa98d1d4bcb' is not unique check attvals '5231688, 5091984'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a79a4adc-4e54-4af0-b941-9adaa840a289' is not unique check attvals '5238028, 5125583'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/a8284f9f-955f-4b4e-afe2-ae45b671a33e' is not unique check attvals '1884673, 4990573'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ab3843c7-904a-4139-8164-f91bd2b8f4b4' is not unique check attvals '5588484, 5365082'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ac9589c6-28cf-4366-82c4-0f1f7dccded0' is not unique check attvals '5591698, 5365278'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ad5f7e81-54f2-4b1a-b84a-0b404eb9edac' is not unique check attvals '5221171, 5036635'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/af92bee5-4a7f-4813-84e6-2ee38f925ec5' is not unique check attvals '5808009, 5049695'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b0977bf6-1bd4-4569-84bd-f8f1f7701258' is not unique check attvals '5220153, 4931579'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b26e8377-cc8b-45b2-8e20-d70bfa8a0d60' is not unique check attvals '5249001, 5046265'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b301dde0-cd0b-43d4-95eb-ef61d7e53487' is not unique check attvals '5221119, 4937170'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b456340e-d5d2-4a19-aa80-805f8b31db1a' is not unique check attvals '5222352, 5196370'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b46efc61-6f13-46f0-8afc-c1e3c1058388' is not unique check attvals '5220529, 4929692'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b50692f7-1618-46a7-9d78-05287141ae2e' is not unique check attvals '5221378, 5131488'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b51928a0-f325-4c29-92e7-a47b03e49b2d' is not unique check attvals '5589242, 5365615'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b708d3d2-6c1a-48f7-86f1-fb720fa811ff' is not unique check attvals '5253301, 4964425'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/b7176ca1-cc61-4106-9f4c-93bb159dd6f9' is not unique check attvals '5253310, 4934447'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/bacb6840-0cbf-419d-abd3-f40dfb905148' is not unique check attvals '5232343, 5186568'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/bc669526-41cf-40c0-8ad0-d76d070598d8' is not unique check attvals '5221621, 5023217'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/be9c7f5c-004b-4e50-87f8-45e31b0724c5' is not unique check attvals '5219286, 4945934'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/bedcec2f-0ea8-4a58-98ef-fe60781b9d4c' is not unique check attvals '5240758, 5027112'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/bff22999-c350-4170-b2f6-51a9d904c980' is not unique check attvals '5588159, 5365485'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c01bda9e-89f5-4f57-9424-b6cce978edc6' is not unique check attvals '5587523, 5365737'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c1024d03-9f8f-4bb7-89bc-d705153ab25e' is not unique check attvals '1884629, 5021234'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c114137c-f7bc-449a-a1ba-0c3411051ad3' is not unique check attvals '5228854, 5022204'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c1e33f80-21a4-4bd4-b54e-01454cfbe1d7' is not unique check attvals '5220382, 5168462'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c249ec43-986c-48a6-a886-d005ba737033' is not unique check attvals '5241835, 5220201'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c2691e4d-85a9-4a5c-8dd0-4a2314c976e1' is not unique check attvals '5240570, 5133185'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c284d2a8-babd-4afc-ab29-800ff88a2f05' is not unique check attvals '5585643, 5365387'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c453d6e4-77a4-403f-aa39-5b64af5f8d87' is not unique check attvals '5588165, 5364873'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c5beac5e-6f46-4627-bfb3-8970ff1e2814' is not unique check attvals '5238213, 4936978'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c628095d-d830-4eac-b13a-9c26f69ec198' is not unique check attvals '5236494, 5019099'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c6e523e5-d67f-4112-b454-1b0f2e803c12' is not unique check attvals '5242958, 5039215'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/c71f0f66-3c08-4218-8cac-8c22c92ab768' is not unique check attvals '5224607, 5132916'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/cafe5ab1-065b-4f5a-b1f5-ab674da95bd7' is not unique check attvals '5227244, 5087941'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/cb2d824e-bf70-4c58-96e4-5e1ab2759a1f' is not unique check attvals '5243929, 5187571'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/cd9d143d-f0a5-4399-b397-0fb96071bb60' is not unique check attvals '5217066, 4987015'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ce9616e5-87b5-402e-a838-5f588049ba92' is not unique check attvals '5238727, 5031954'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/cf302f19-46a9-4e9b-b371-64c11c89396d' is not unique check attvals '5221468, 4941340'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/cf62744c-d531-4908-8314-e4affca148ba' is not unique check attvals '5243993, 4983483'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d143e0fc-b849-4051-aa60-7fdc0aca9b3a' is not unique check attvals '5238510, 4944854'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d1b8fae1-41b0-4269-9fd0-8138a7e5dda4' is not unique check attvals '5227534, 4946719'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d247a64e-c725-436a-8213-fefd0e5d319b' is not unique check attvals '5592907, 5367000'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d4178827-d477-47b0-88e1-f4aab4943352' is not unique check attvals '5250914, 5116954'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d55c0c22-5482-4aa3-9710-0887fac7ce4a' is not unique check attvals '5240408, 5067721'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d69ab241-aa44-4286-9ace-3bc5dbcfcb10' is not unique check attvals '5251749, 4984012'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d8122253-e823-4e54-a7fa-a80a7e9fc553' is not unique check attvals '5233653, 4935761'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d8e88dba-bce9-4ec1-8545-c6e0a33d2320' is not unique check attvals '5220221, 5167514'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/d98765e4-4260-4eb1-8834-3a2f6c7ee78a' is not unique check attvals '5238970, 5013981'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/dae0dbf4-3504-405f-9b2e-e53d5c257edf' is not unique check attvals '5241423, 5178706'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/db8fd3b6-6dc7-48a7-b42f-30025e32ca40' is not unique check attvals '5220354, 5116478'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/dd187b72-aecf-4c7d-b037-cf6d3e7f30f5' is not unique check attvals '5675039, 5470294'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/de466eb6-a020-4891-88ba-e2cec2bcb3d9' is not unique check attvals '5655841, 5118538'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/df042806-3c90-4dbc-a55b-4d5ab35167c6' is not unique check attvals '5221325, 5068893'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e00b3799-218f-417c-b696-78e93a688469' is not unique check attvals '5221740, 5046622'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e020321c-8c51-4a27-88ea-414218dc1b97' is not unique check attvals '5244323, 5016219'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e22749ae-1616-4fe9-860b-c04d20e0282b' is not unique check attvals '5243414, 5083951'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e30b9a70-ce43-4e73-9de8-31875ac00b59' is not unique check attvals '5615791, 5036872'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e4ad89ed-eb5d-47ea-bbe4-90a180493849' is not unique check attvals '5221691, 5070828'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e779f89f-08da-4472-8455-c176a9cc2d85' is not unique check attvals '5224289, 5199373'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e7cefb4e-45b2-4106-bed3-dfa59e60ebba' is not unique check attvals '5238381, 4944335'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e8fdd704-04bf-4506-9891-540752e7f919' is not unique check attvals '5240208, 5193443'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e953b73d-79c3-4b65-bfb5-6ed53a3175da' is not unique check attvals '5213575, 5171970'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e977dc16-dde2-4c92-899f-c74d204bdb8e' is not unique check attvals '4626700, 4929384'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/e9915b7e-6ab4-4707-95b3-13179554b173' is not unique check attvals '5055321, 5125007'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ea24d089-90b6-411b-abf6-5f6fcef3dacd' is not unique check attvals '5243980, 4965266'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ea34036e-c6c3-4991-ae37-4af0e51d97ba' is not unique check attvals '5228430, 4944014'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ec90b37b-2d40-4251-aad0-a3de0c051592' is not unique check attvals '5219858, 5033021'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ef5c7216-aad8-421f-9862-944f48605dcd' is not unique check attvals '5227129, 5140789'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f0845ef7-7ccf-4902-a7e6-05331839fccb' is not unique check attvals '5808175, 5182963'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f0d5e177-dee3-4e3d-8455-a78a156ac3dc' is not unique check attvals '5222063, 4944584'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f18556ca-1c29-4445-8508-feada28f9e6d' is not unique check attvals '5220194, 5125844'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f2468e95-4321-4a58-87b8-b766f0e84914' is not unique check attvals '5229063, 5043808'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f563527d-85c6-4ed2-b2fc-1ee4691cecc3' is not unique check attvals '5240872, 5079121'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f5d650fe-2c3d-4f5f-8236-276dd368e8da' is not unique check attvals '5232822, 5097774'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f647bc35-ee7e-4872-aaa2-68dd30925542' is not unique check attvals '5219819, 5021772'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/f9fe1458-8402-4ba6-b858-425bb1f8ebc1' is not unique check attvals '5219465, 5075319'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/fb106d70-5279-4335-af11-0788da7fc3e7' is not unique check attvals '5241367, 4942841'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/fcb49031-c8ba-480f-b12c-cae1a0b3a7ad' is not unique check attvals '5609168, 5116258'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Ctr/Occ/ffde173b-5d7a-4469-9b5b-b4931ae5751d' is not unique check attvals '5251087, 4930149'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/0b52022b-ed4b-47ca-a397-fa139839d29d' is not unique check attvals '5229485, 5240915'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/112cedec-1419-4749-b0b1-4d2caa7c32b4' is not unique check attvals '5220680, 5266511'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/12ed785c-c544-4a52-aed8-571d4499ec5b' is not unique check attvals '5220649, 5241643'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/1ba222f2-2d98-47cd-8ba2-6bd284859d7e' is not unique check attvals '5248932, 5224274'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/1fbb53bb-f40a-479e-b896-1edda5a5f0de' is not unique check attvals '5228376, 5228484'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/284b1dbb-a48b-4856-ae6f-b2cd603dad83' is not unique check attvals '5220725, 5233945'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/2adb12d6-cbf6-401e-9522-94da998db9f4' is not unique check attvals '5249634, 5253643'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/38186ea7-4513-41ed-8936-9a270046fc14' is not unique check attvals '5227980, 5264115'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/39328aee-ba3a-44ec-bd0c-fbb5fd3ebf0e' is not unique check attvals '5248992, 5251628'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/3ad63f67-add5-4b30-a39d-58ec1539d097' is not unique check attvals '5642159, 5256146'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/5efc9acb-74a3-42a3-8ed9-515f3adaa408' is not unique check attvals '5220757, 5249520'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/65c69945-3079-4c5e-b8ba-f92b39e41c41' is not unique check attvals '5220791, 5240321'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/6ae5c58a-ad54-4291-8bb9-fefb390384d2' is not unique check attvals '5231086, 5243213'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/ac7e5906-4687-418f-867e-3e8dc3e59841' is not unique check attvals '5228087, 5223185'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/b77ade89-5a2b-4c48-a8b9-0791ed157035' is not unique check attvals '5220916, 5245826'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/c5a7e8b8-18c3-4c58-8677-628ba0d7f105' is not unique check attvals '5228278, 5232445'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/da928fe3-a6fa-4bfd-9fcb-5a14049a218a' is not unique check attvals '5807856, 5260344'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/eecbdad5-2618-4d71-b6cf-024b97cec005' is not unique check attvals '5228178, 5248517'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/f30af353-78f5-406b-8abe-94aa9256a904' is not unique check attvals '5253249, 5250470'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Dev/Occ/fd549475-b2da-4613-af71-1c684cd60b1e' is not unique check attvals '5219246, 5252860'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/000d9ac9-c98a-4fa3-a617-3f793b411573' is not unique check attvals '5148700, 5033540'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/001a8f56-4430-43d3-b698-50fba34a317c' is not unique check attvals '5545243, 5366917'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/01b8aa73-1762-47f9-9621-d4a9b45cc6e8' is not unique check attvals '5190855, 4971365'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/02501215-0d51-45e2-bc60-63e2cf072432' is not unique check attvals '5147961, 5249068'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/029b9fb0-d93f-4892-b83a-1a1fd34b1c42' is not unique check attvals '5181765, 5010654'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/02aa273a-d993-498e-93a9-528443330ace' is not unique check attvals '5191578, 5045554'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/02ceb66c-5b20-4b72-a674-a52a494650d7' is not unique check attvals '5165179, 5017949'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/04ae6ac6-e562-42f1-b925-7cb237e1c23b' is not unique check attvals '4626943, 4929092'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/04d1c09e-cd62-4efd-9b42-6e396e12ef5a' is not unique check attvals '5164867, 5051007'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/05a14240-d1ef-4044-a6e7-7bbeaf3c5ccc' is not unique check attvals '5194912, 5101684'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/05dbee8a-717b-4860-8c30-2562d4771b76' is not unique check attvals '5213330, 4965536'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/06afb16b-2968-4890-8906-9063d0b540fa' is not unique check attvals '5151999, 5084816'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/06c7154f-9a1d-44e8-aa72-082e3bd7f8ec' is not unique check attvals '5162680, 5047032'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/077dbeda-af27-487c-81eb-9546bd9a7d8f' is not unique check attvals '5198345, 4956963'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/07bf250f-5400-4601-9d66-5eeaf20e230e' is not unique check attvals '5189924, 4983186'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/0873618d-d120-47f9-961d-bdda1a03ca4a' is not unique check attvals '5194842, 5107747'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/0a5d9851-5af8-4661-9a68-f79758ad6426' is not unique check attvals '5148820, 5065355'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/0bf9df88-8ca0-4dd2-9af7-f09db553f0ba' is not unique check attvals '5196740, 5034754'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/0fa182e9-9c58-464b-a6d4-a0b4977b8cf3' is not unique check attvals '5176079, 5175760'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/11021bd5-0d25-45fc-a8fc-6d0c4801f945' is not unique check attvals '5151906, 5017225'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/11758a69-5161-4e7a-9d69-8c20fcb8dc7b' is not unique check attvals '5176516, 5174932'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/11823fb2-e925-4582-97fa-6bbdf75da57c' is not unique check attvals '5196111, 5103898'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/11a4fad5-e88b-4c11-a8a7-d1a056df6dc3' is not unique check attvals '5157926, 5185846'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/122db3d0-fb41-4e3d-87fa-2c89bb0f00d1' is not unique check attvals '5198550, 4962243'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/12580a19-6cdd-4840-b966-86dc52b584bc' is not unique check attvals '5195837, 5103796'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/13189266-49f3-4e02-9cfb-653449ec7a08' is not unique check attvals '5190978, 4970133'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/15273f03-c5cd-4bda-a09a-02157da47862' is not unique check attvals '5147792, 5241356'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/15a4d347-7c7c-42e7-8a19-ac23067ac697' is not unique check attvals '5546111, 5365535'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/16af39ab-b583-47c4-b453-cd59e821f2e4' is not unique check attvals '5199163, 4964257'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/16cfd7a8-16e9-45bb-ace2-1769ef271c1c' is not unique check attvals '5149288, 5023011'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/17503811-dfca-4086-bcf7-df4cc0932a3a' is not unique check attvals '5154709, 5130071'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/17bf51a5-4272-4e5c-8383-58e3013c1454' is not unique check attvals '5166514, 5022538'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/17d46504-466c-4bbb-b302-99d724e5b516' is not unique check attvals '5198656, 4957702'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1908d2f0-f638-4b2c-add4-d987e4e65477' is not unique check attvals '5197248, 5249949'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/191f7b19-61ce-40e3-9744-6f1efe0ee26d' is not unique check attvals '5151121, 5135381'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/19b8424a-6a70-4e2e-8f95-bd0ff0d05c2b' is not unique check attvals '5183222, 5005393'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1b32c1df-c1c5-46ae-bcd0-3337bda744e5' is not unique check attvals '5198742, 4959221'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1b436495-3277-477c-bf70-643712c3e2f5' is not unique check attvals '5152707, 5227393'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1c64e8fd-8741-4bb9-a136-a14366a90cf4' is not unique check attvals '5171612, 4942742'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1c656f56-f745-473e-9538-f1251fb594d5' is not unique check attvals '5183283, 5007997'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1d162b56-9ba8-4b43-abf8-1e3cb2a153d0' is not unique check attvals '5164835, 5033298'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1d75f7fc-7ef4-42cd-bcf6-859386a0b2bc' is not unique check attvals '5198228, 4951551'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1db4a9af-fd92-4c58-ba58-5470a364eab0' is not unique check attvals '5194319, 5060923'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1dd3b3b4-84ce-4f58-8fd5-01133dc877a1' is not unique check attvals '5188814, 4995630'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1e0448f2-9f36-474f-98c4-8a2ffd62902a' is not unique check attvals '5166027, 4982280'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1e97f19b-9138-4a01-abed-698012a86e9d' is not unique check attvals '5162584, 4944730'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1eaf58bd-006a-406a-9d7c-23e829820c1e' is not unique check attvals '5171390, 4941884'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1f7869e7-e104-4b9c-8246-6d0191702fa1' is not unique check attvals '5148623, 5036454'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1fbb89b9-44ac-469b-8275-1e846538b649' is not unique check attvals '5178918, 5038171'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/1fe7e0d0-4c8d-4919-8f0e-1b8340655c1a' is not unique check attvals '5183430, 5005960'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/207feaf4-54af-4ada-90bb-ba3c99e98583' is not unique check attvals '5183571, 5007731'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/22a80b15-d9de-4404-a456-884b2361b264' is not unique check attvals '5146151, 4945258'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/22cc59d1-eebb-4aaa-9fa7-8625f2c6ae06' is not unique check attvals '5147226, 5125747'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/23217b1e-56b7-45df-9209-27f08dd89502' is not unique check attvals '5546014, 5365331'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/236a1070-5ecb-4fe0-babd-d2ce30038265' is not unique check attvals '5155423, 4927970'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/236a2704-f8ac-43be-b7dc-b47896ae93f1' is not unique check attvals '5199534, 4933629'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/24346244-9ffe-4f68-8bfb-1f325a4e15e4' is not unique check attvals '5153015, 5140984'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/256dbbbb-c95c-4bf8-8063-4cdd1fb4bbf5' is not unique check attvals '5175945, 5178499'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/25c277a1-45c2-4c40-b1c7-7745f8f79f61' is not unique check attvals '5190820, 4969877'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/26035464-1d78-48df-aa91-5bca970d6b7b' is not unique check attvals '5545563, 5365130'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/271b07a2-ecf0-4cd2-9d60-f537f0f378a0' is not unique check attvals '5149125, 4974616'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/28100af1-c8ec-4f24-b241-672c03d68052' is not unique check attvals '5155107, 5118892'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/28a4276d-d4d5-4a71-bdac-c5be5efca28f' is not unique check attvals '5160859, 5134087'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2a134d79-d5f4-4da5-a980-78027f10cb3d' is not unique check attvals '5166173, 5133040'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2a2e09bb-7b70-4cd1-8026-bc45cc553830' is not unique check attvals '5178564, 5217887'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2a638c79-a131-4a28-a5b0-d87010485c12' is not unique check attvals '5182741, 5006392'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2a99375d-8954-46c9-bef7-a01c5ec16183' is not unique check attvals '5165381, 5125974'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2be329a9-5904-46a8-ad5f-bae8013ac656' is not unique check attvals '5150283, 5046465'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2c1b30a5-6ecf-4d8c-a9ed-9ef4fdf66ab5' is not unique check attvals '5183508, 5009844'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2c5ddff6-7d4b-42de-8d4a-3c6a1d183dec' is not unique check attvals '5155276, 5242449'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2d00877b-fa02-4ab5-b246-90b86bc46526' is not unique check attvals '5158426, 5049839'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2d25553f-f4e8-412e-9134-590b883f6e28' is not unique check attvals '5147717, 5051594'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2d933d4c-a1f1-44fa-b63e-49e9698aedc1' is not unique check attvals '5161037, 4927702'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2e2c7b86-deda-4781-801d-9a321c4ad5c3' is not unique check attvals '5189784, 4964894'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2e70efee-e8a7-45a7-860b-7e14eeba9952' is not unique check attvals '5158531, 5092263'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2ef640a6-246f-48e3-ac43-a5aa8cee1cd6' is not unique check attvals '5545964, 5365667'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/2f1a051d-acd0-4258-a04a-d0ab0635d01d' is not unique check attvals '5147050, 5032457'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3078a90e-b33e-4b47-b6cb-80f3bec18758' is not unique check attvals '5162408, 5024920'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/30a6810c-b70b-4de2-b52e-d0d725e35e7b' is not unique check attvals '5807610, 5179711'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/312caaf4-d997-48bb-91cf-7fdacdff1aaf' is not unique check attvals '5179756, 5111274'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/318ad0d4-2ad1-46fb-8de0-4319afee606c' is not unique check attvals '5209430, 5190998'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/31d2ce77-af2c-4fa8-9321-41d8e7b7db8a' is not unique check attvals '5147457, 5168263'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/32427c72-a183-4a7f-8b73-a364f97d0286' is not unique check attvals '5145352, 5171598'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/33de7e63-9aee-4a53-98ae-b14983bc4900' is not unique check attvals '5160725, 5017530'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/347b9087-7757-4619-bf4d-c7114e6a961c' is not unique check attvals '5153181, 4943800'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3508db80-50ab-4b74-a8ab-460849a67339' is not unique check attvals '5148259, 5072231'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/36df668b-038c-4133-852c-a7c1f3fc8c9e' is not unique check attvals '5154815, 5019405'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3854acec-5de1-4fc5-a988-8bcc5a03ab4e' is not unique check attvals '5205945, 4932368'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3879b39f-4db7-4713-a1cb-ea47b3a8867d' is not unique check attvals '5149930, 5024039'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/38dc2f2d-dd04-44c6-9c74-870531d41c6d' is not unique check attvals '5194432, 5101898'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/397de937-749c-4cb9-8abc-743b408c5374' is not unique check attvals '5189003, 5003520'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/39968ea3-5d5e-4312-a351-8c2c06e2dffc' is not unique check attvals '5147374, 5116363'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3bcceaaa-7ade-4551-bdd1-f8e6dfc9371f' is not unique check attvals '5181601, 5009197'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3cb586f8-b482-4e66-a312-966a6248917f' is not unique check attvals '5584098, 5036783'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3d192908-e9a3-4412-9fa9-8617a2d584fe' is not unique check attvals '5194403, 5253321'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3ed2fbc4-0814-4e21-8268-919b9f4c0d97' is not unique check attvals '5148293, 5071366'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3f7e41ce-4d4d-4960-b747-55b102c5c30b' is not unique check attvals '5166106, 5066932'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3faffce1-34ce-4636-bbd4-ab5d9aa97da7' is not unique check attvals '5165298, 5061982'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/3ff8b214-226b-4817-b708-d873870d8c3a' is not unique check attvals '5657455, 5470829'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/40781ac7-c517-400a-8013-63f043bbbfe0' is not unique check attvals '5179686, 5113432'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/40f7376e-6118-46b0-af85-90835d92b9cf' is not unique check attvals '5189418, 5082880'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4174fb22-6446-4d09-bc31-39d7989177f6' is not unique check attvals '5165837, 5129567'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/41b5bd6e-e596-43a0-b0bc-58658ea6d12f' is not unique check attvals '5194602, 5108985'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/43139999-4ad8-4476-9493-1fc7eaba5bc1' is not unique check attvals '1884513, 4990264'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/43660188-46f4-4262-b9aa-fe3843912f56' is not unique check attvals '5148967, 5193713'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/457d8184-de64-4fe2-8081-52643ccff997' is not unique check attvals '5160056, 5151570'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/45ef0a2a-0636-4a84-8b9b-157571304a4a' is not unique check attvals '5150675, 5197617'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/46a0f8c4-ad6d-4981-9194-09fa84376aa3' is not unique check attvals '5148536, 4937083'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/46c1de9e-9ff8-46bc-bdd1-b5b08ed0a637' is not unique check attvals '5151205, 5198998'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/48732707-43da-4d9d-86fe-b3a9c365dc60' is not unique check attvals '5188911, 5002042'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4961548d-6a53-493d-8f62-265204200d0f' is not unique check attvals '5159782, 5150009'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/49f79377-6d80-49fe-a2b4-de8bf9ec5d57' is not unique check attvals '5159605, 5143623'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4a126915-6e5d-4d11-b62b-eeb37c079aaa' is not unique check attvals '5160619, 5153077'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4a19a731-1c71-4f46-b824-dbece3e34ad9' is not unique check attvals '5189856, 4982715'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4b2b7905-7ffd-4bb2-a80c-fe8fefc15bab' is not unique check attvals '1884467, 5020776'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4cdd3fe3-2f9f-4a39-91e2-22609faf87e0' is not unique check attvals '5199239, 4959052'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4d6a15d3-9211-4300-8172-e5819192b1db' is not unique check attvals '5210077, 5191473'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4e7ca12a-2443-4ee2-8f4d-b451aaf2571d' is not unique check attvals '5189565, 5046761'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4ec8a520-3b17-49e9-a569-91d99465481a' is not unique check attvals '5190720, 4971088'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4f1bac6b-fab1-4a41-b390-3a7d63ebf4f2' is not unique check attvals '5212980, 4966631'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/4fac2403-d53c-4fc6-a9d6-01ad1902ab3f' is not unique check attvals '5187241, 4998009'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5007a942-a8b6-40a5-a96b-b5b135d8f0cf' is not unique check attvals '5160453, 5157439'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/510124a7-8313-4244-80b3-1c80184723ea' is not unique check attvals '5162158, 5213972'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5255462e-0dfd-4891-a38b-5bbb9e9370f4' is not unique check attvals '5189191, 4940110'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/52c2f226-2aaa-47f0-8eb5-6661725a3911' is not unique check attvals '5160360, 5152070'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5384b59a-e815-4a43-9b3e-502dfabee78b' is not unique check attvals '5196479, 5101777'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/544920b3-5422-435a-95b0-939619469343' is not unique check attvals '5146072, 4945689'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/55be4008-402a-4ce9-8f50-66ec29fd646a' is not unique check attvals '5186970, 5003384'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/56568b47-a642-44c7-a072-ad6d52d675dd' is not unique check attvals '5153896, 4943272'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5a091012-ed4c-4aff-8d45-169836570213' is not unique check attvals '5580210, 5116159'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5ab96157-6d4e-48e1-a025-c1c84a90c887' is not unique check attvals '5155226, 5120605'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5af693e8-ec3e-43ad-a422-fee00e99f094' is not unique check attvals '5148471, 4977138'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5b058b50-53ce-48f6-ab02-9c5b9c8d69d6' is not unique check attvals '5165044, 5016494'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5d7f8383-f725-48d2-8916-bf1833e52606' is not unique check attvals '5147328, 5052154'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5da0c140-ca11-47f8-ae52-1da9fa2d3dee' is not unique check attvals '5196565, 5034408'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5e10d692-688e-4b96-9e3c-1b858a87eeaa' is not unique check attvals '4626918, 4929313'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/5e501e37-ce99-46c3-a023-997534be6d88' is not unique check attvals '5154962, 5053906'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/60181583-370d-45cf-bcf5-8a66689ceabb' is not unique check attvals '5151929, 5140701'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/604819ba-d842-4754-a33d-1b7f155b250c' is not unique check attvals '5198922, 4962963'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/61ddf8b2-7992-4e8b-ac58-773a747037e6' is not unique check attvals '5154777, 5043534'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/624d96be-eb6d-469c-9c20-2a97853dd042' is not unique check attvals '5147524, 5052794'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/62b367f1-d192-4717-81fc-3faa27c3feb2' is not unique check attvals '5198595, 4950280'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6333e9cc-0777-43f3-91e6-8fb1c2cdbb5c' is not unique check attvals '5199040, 4961289'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/639e62a4-11d4-4b3f-b66c-26842a827854' is not unique check attvals '5149522, 5044922'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/63c3eee1-1238-4d0d-8942-d90541b2fddf' is not unique check attvals '5196945, 4930017'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/65698a0c-5881-4b28-9502-91c4bb77dc6b' is not unique check attvals '5161973, 5125507'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/65c4ced8-f4da-4b00-8e83-9dc937152d18' is not unique check attvals '5183390, 5006659'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/65f368d4-e6e5-4023-a730-323a494b3b90' is not unique check attvals '5148791, 5068395'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6699bce3-f12f-4af4-acda-e44bd80f2800' is not unique check attvals '5182862, 5009523'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/66a239c3-601a-4022-b067-b6465dc31334' is not unique check attvals '5148998, 4941168'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/66a8e78b-0255-4f2c-be96-abed6092b786' is not unique check attvals '5177659, 5177295'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6748bb12-6fbc-41ce-b5fd-9260e4647eb2' is not unique check attvals '5145861, 4945485'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/682b58fb-ca41-4207-9606-f7d280a62ff0' is not unique check attvals '5147024, 5021461'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6905cd73-3c4f-412c-8fda-950285f2e64b' is not unique check attvals '5183029, 5006963'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/69b7a73a-9760-4956-8539-41fddd60e2fe' is not unique check attvals '5146221, 5075028'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6a58317e-b85a-44c4-b68b-1954ea746928' is not unique check attvals '5158350, 5160854'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6a62ae11-f17c-41ff-ab75-1df226fc23c0' is not unique check attvals '5180205, 5111171'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6be6a4b0-66d6-43b9-adff-0fa75404874d' is not unique check attvals '5197880, 4958614'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6c6ffea5-a300-4463-aae5-cc19d46e4ab9' is not unique check attvals '5185863, 4999522'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6cedf49c-3bc7-4dc9-882a-d93d1c8387d0' is not unique check attvals '5148388, 5244799'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6d45c723-29a1-458a-9037-0df83c818199' is not unique check attvals '5159199, 4935566'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6d61cc4b-8bc5-45a3-80cd-46667f11d8e3' is not unique check attvals '5191457, 5045144'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6d79f8c9-0204-4849-a7b2-0fcb4ef20e33' is not unique check attvals '5189320, 4940928'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6d9173b8-fee3-4034-8d65-37324e79dcf2' is not unique check attvals '5160101, 5154658'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6e7fcc8e-fecf-4630-81ec-d634bd7d3547' is not unique check attvals '5206666, 4932925'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6eb52aa0-d049-44e2-94ed-1d4e2669366e' is not unique check attvals '5190002, 5015846'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6ebc6fb7-5044-4fa4-853b-213a5833f383' is not unique check attvals '5189820, 4965017'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6f000978-95bd-4db0-98b2-99278b6aa7f0' is not unique check attvals '5148015, 5234291'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6f96a5c6-8dc8-4a65-8182-5c9860768871' is not unique check attvals '5162257, 4944183'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/6feefa8e-c4f9-4ab1-beac-48f2a24ad458' is not unique check attvals '5189363, 5040541'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/70272b9a-6dea-4e3a-81db-b9ff7915ca86' is not unique check attvals '5189613, 5023328'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/70532d06-d1ff-4ed4-8cd4-d1715ee5ca54' is not unique check attvals '5807449, 5049338'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/71b217e5-6408-4762-b45f-c6e9bed7de7e' is not unique check attvals '5807730, 5181023'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7204eeb1-83e5-4938-894e-0234081f348e' is not unique check attvals '5807797, 5181664'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/72347743-a8a3-4ba2-ac7f-a1200ee49d15' is not unique check attvals '5152057, 4946557'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/72b363ba-fa9e-4ae1-8346-050cd6322dc0' is not unique check attvals '5179539, 5167809'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/734818b5-e539-4305-a38c-22e71e144b38' is not unique check attvals '5198307, 4960017'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7496aa0c-7295-4b11-83bc-f7bc2cb44e73' is not unique check attvals '5806728, 5258228'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7518e8c9-383a-47a7-b1d3-e4812fa3f7d3' is not unique check attvals '5165003, 4949219'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/753e2351-7465-44e9-8cd0-2d6a2853d190' is not unique check attvals '5161923, 5058625'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/75588dfe-687d-421e-8716-e455b2b6e466' is not unique check attvals '5162774, 5076668'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/75717985-a1fd-4ced-86f6-c603a4a16589' is not unique check attvals '5178720, 5037727'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/75a62bc1-334d-4a63-a83b-e9d27eeace91' is not unique check attvals '5190679, 4971638'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/76ecdfd8-8efd-4c4f-a8f5-40636517ca5b' is not unique check attvals '5625357, 5364922'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7704da08-cc97-46bb-88d4-768d221c0d2b' is not unique check attvals '4626968, 4928986'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/77a7ac76-91c6-4813-852c-b580020be44a' is not unique check attvals '5160248, 5153951'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/77dc1ac0-e370-4e51-ae3a-61caa60a29a4' is not unique check attvals '5159125, 5201307'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/78e8e357-1d27-4073-adcc-bb0abd0e92e4' is not unique check attvals '5182316, 5008311'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/79131e3f-8e71-45ce-b585-edd8a784148f' is not unique check attvals '5158779, 5096287'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/797268b7-3da9-4ddd-b6b2-123ed82f46d6' is not unique check attvals '5158815, 5094836'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7980285d-0905-4089-8e46-0d82c4d7dd1c' is not unique check attvals '5159975, 5144062'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/79bf2364-4b5c-4128-a551-d914517d80ac' is not unique check attvals '5148580, 4978416'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7af269c8-6e48-4338-b27d-396c9398cc75' is not unique check attvals '5164082, 4991411'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7d6dc952-e30f-475e-abe0-43ea90a4e58a' is not unique check attvals '5198504, 4951991'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7db93612-a4c7-4beb-a92b-d802dbd0c26d' is not unique check attvals '5161293, 5040089'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7ec60c55-0681-4151-977e-848549395b01' is not unique check attvals '5159292, 5120828'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7f31a686-c3ea-4f20-8674-bd86102838a2' is not unique check attvals '5211477, 5190723'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7f9be266-37ff-482e-b572-6866e0f10471' is not unique check attvals '5152950, 5143309'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/7fe085cf-a8fd-43e0-9314-37e90e6114df' is not unique check attvals '5152545, 5247906'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8022c8bf-b7ef-48c4-b2c6-0b1a12855acf' is not unique check attvals '5154588, 5025561'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/80349a6c-9d6d-40ae-9c27-ad003f1c6ee8' is not unique check attvals '5148201, 5071575'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/82235aca-073f-49a4-adf8-88e173c83c03' is not unique check attvals '5159509, 5158878'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/82845e12-1c67-416b-a998-551532083320' is not unique check attvals '5165510, 5044557'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8315f711-eec8-4cc6-8a09-b8e51278db9c' is not unique check attvals '5155319, 5089651'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/83d9a022-da52-4232-9838-f8c7386001d0' is not unique check attvals '5153924, 4943495'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/84e685ad-cadb-49f6-9c55-878a5f9f20a7' is not unique check attvals '5165718, 5063178'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/860ec0bd-bb05-4eee-bbb3-dd9d431de3c5' is not unique check attvals '5197975, 4951746'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/870cfa1f-1769-4051-9212-a101e75461b0' is not unique check attvals '5154849, 5240610'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8894de83-cec6-453e-b8dd-9c27dedb612b' is not unique check attvals '5151089, 5069406'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8936725e-cc3e-4127-96a1-51eb1f39f602' is not unique check attvals '5148109, 5071031'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/89da09e7-7d42-4377-a12f-e803b524f835' is not unique check attvals '5145424, 5188123'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8bab917f-84e0-4f31-87db-2ab107d47ef0' is not unique check attvals '5196821, 5116585'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8badd3e4-f579-4dea-99fe-3ef96e5e4c51' is not unique check attvals '4627016, 4928906'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8c259396-6258-4714-8851-e01c54359fd4' is not unique check attvals '5191683, 5045955'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8c729eb2-4d29-42db-aaf9-10018c67a84d' is not unique check attvals '5178619, 4979133'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8e541e56-8038-462d-a519-8e2cd1a194a5' is not unique check attvals '5154549, 4987731'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/8fbccb45-1dc2-4613-a2f3-bf68ec568d97' is not unique check attvals '5155556, 4947225'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/901a8509-2c5b-4ce5-98ae-f846a9fd5133' is not unique check attvals '5197106, 5216925'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9040845d-5d5d-4271-85e4-4438a3597f8a' is not unique check attvals '5152864, 5142015'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/90776dd3-56af-4fd5-8ebb-4fab83e1fbb2' is not unique check attvals '5149656, 5070202'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9219047c-7cf3-4289-a567-894531f9080b' is not unique check attvals '5183630, 5162021'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/92cd0514-793e-4881-aed1-c79698a76bc4' is not unique check attvals '5205440, 4933513'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/92f4416a-96b6-498d-a831-b618b9320b48' is not unique check attvals '5191048, 4928264'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9334b806-b122-4161-89d2-b8a9b785ed21' is not unique check attvals '5545170, 5366787'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/93fc1fe6-ddd7-455f-94af-4ad8c8d3307d' is not unique check attvals '5165963, 5192470'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/942adfd3-44be-4f8d-b52a-201f88643018' is not unique check attvals '5146544, 4980273'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/94706e2e-bede-41bf-990b-6d2e4535587c' is not unique check attvals '5194735, 5099689'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/95659ca6-2a94-4039-aa73-34ed4dfa0d7c' is not unique check attvals '5194940, 5104371'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/959a3883-27ba-4551-8056-933466b1a5ec' is not unique check attvals '5195751, 5109191'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/963429e5-5d99-4163-8524-9c7e081811ea' is not unique check attvals '5194676, 5104032'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/96448d2c-b5b6-483d-865f-829b5f8c54b1' is not unique check attvals '5147134, 5169018'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/96e2f1ce-6335-410c-832c-2d33d8d56151' is not unique check attvals '5145452, 5187774'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/977bae08-7fe7-4f95-990c-c3eab64913e2' is not unique check attvals '5198385, 4955484'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9880c4b3-e8cc-40e6-bb35-0b4178711d0c' is not unique check attvals '5545881, 5365435'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/98ac2ad0-eb1d-45a7-a505-108506a5e02d' is not unique check attvals '5170026, 4942210'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/98f4fba9-f572-45d4-a5f7-e5776dbb6ca0' is not unique check attvals '5177914, 5174412'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/99100cf1-021f-408b-821d-3463652845ae' is not unique check attvals '5154930, 5168594'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/99c1fd1b-7205-4345-b0d7-fc6514d01852' is not unique check attvals '5155467, 4946888'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9a0882e0-0871-46a4-888b-2dee5b014d94' is not unique check attvals '5158016, 5186122'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9a8b3175-7160-47d8-b9cf-421bd0beb799' is not unique check attvals '5151955, 5221412'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9b1c23ef-6739-43cd-9443-2a73614ae422' is not unique check attvals '5176803, 5176908'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9c19b545-1eb6-4dce-9c57-b81d2f731178' is not unique check attvals '5194992, 5102027'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9d24efb9-c1e7-4817-a592-b5c132ae0802' is not unique check attvals '5190908, 4971904'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9d55eb26-179e-4710-bdc6-421dbd952bc8' is not unique check attvals '5177369, 5175213'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9de9ffb5-f1ea-4c9e-9e8b-90160ac72467' is not unique check attvals '5154476, 5170315'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9e023e51-d2b4-4784-947d-a338787e35dd' is not unique check attvals '5160016, 5153427'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9e057d1c-6897-4518-9bf0-bbed9bfff0bd' is not unique check attvals '5191277, 5251070'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9e430433-b1f7-468f-b977-6901d632dfed' is not unique check attvals '5158923, 5208127'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/9fc98106-a776-43f3-aa6e-8cc585eca76e' is not unique check attvals '5148664, 4984426'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a0f0afa1-6f4a-408e-8368-846c971c5b7e' is not unique check attvals '5160518, 5146440'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a137a854-db35-4d70-b295-7ecf9c88ee64' is not unique check attvals '5198191, 4961666'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a19f7703-8eda-42ea-a191-0f31a8ebe990' is not unique check attvals '5164804, 5004249'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a432eb24-8b69-4972-8108-a5b31d80fed8' is not unique check attvals '5545649, 5365034'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a6c96ebc-3b18-444d-80b6-9372d725d352' is not unique check attvals '5158684, 5054868'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a70581ee-8d2c-4a99-94a9-444fe44b26ac' is not unique check attvals '5154680, 4937430'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a71b9967-8bee-45a7-b39d-48c5f9fcf58a' is not unique check attvals '5166604, 5078073'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a802091e-62b5-4cc2-8b14-a77c8e7e8268' is not unique check attvals '5153857, 4943680'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a83edc26-a4d0-4b15-9371-74e482ec5733' is not unique check attvals '5183901, 5003772'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a93a8430-e773-43ee-a5b9-ff7024a9b946' is not unique check attvals '5189883, 4983015'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/a99c2825-849e-4c30-841d-1f176c79384c' is not unique check attvals '5159866, 5145187'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/acb5823c-6190-4df9-9086-6e20628ff2af' is not unique check attvals '5199399, 4932681'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ad825ea2-d428-4ddd-ae8c-53c3273883de' is not unique check attvals '5179818, 5112201'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/adbb202c-b8c6-4ec9-8d2c-afc5069513d0' is not unique check attvals '5197052, 5080535'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ae34b402-0275-45bd-925e-6f3ac6e0b063' is not unique check attvals '5147919, 5233226'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/afae2c0e-9034-4ffa-a743-3acb2effc3a3' is not unique check attvals '5191498, 5045351'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b0757e84-18f6-4af4-803c-3eb185cbe168' is not unique check attvals '5183722, 5020537'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b3a5e6a8-ac8a-46c8-a30e-32caf39f86d0' is not unique check attvals '4636326, 4993560'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b3b30e5a-d76b-4519-b6e2-1f97db2f20c4' is not unique check attvals '5199573, 4934234'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b3bd6fd8-765f-4bbb-82dd-2f49199d0557' is not unique check attvals '5194495, 5103658'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b42aa662-1bee-4f73-9f69-942a2f17211b' is not unique check attvals '5152108, 5261652'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b46dcbf0-e59d-48be-b5e7-6ad7695ac080' is not unique check attvals '5179722, 5111385'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b4a9573a-ae16-4035-b6cd-e98bb9d3f797' is not unique check attvals '5190946, 4972305'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b512c762-73d8-4d7f-9746-5afa0c370205' is not unique check attvals '5198425, 4963200'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b5396255-750a-4600-a27a-93dc4201bd49' is not unique check attvals '5160957, 5018771'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b5e952c1-509b-4118-b4af-9ddee9455d06' is not unique check attvals '5164944, 5161233'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b754aeed-2320-4b3c-b2d0-fdf50f12fd6c' is not unique check attvals '5164895, 5012721'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b84e18d0-ef22-407d-92b0-a74b9f9ef938' is not unique check attvals '5160315, 5143778'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b8edae82-083c-47bf-ae5c-24e27ad9532a' is not unique check attvals '5545500, 5366636'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b93e1893-6447-4b1a-9485-a7b349b22280' is not unique check attvals '5807315, 5049509'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b962a587-6191-4498-ba13-90c6001aa8e9' is not unique check attvals '5194354, 4931948'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b9805d02-de82-45f3-bab2-7afcaedbcb64' is not unique check attvals '5152150, 5222742'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/b9ea365e-c288-423a-83d0-fa3014cd9426' is not unique check attvals '5164441, 4946240'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bb56ed62-1dde-46ea-8a9c-31f2fefb859e' is not unique check attvals '5178537, 5177575'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bc51b279-b479-4f3f-82f1-f313336b4a3a' is not unique check attvals '5147078, 4936122'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bd816592-19fd-4860-8090-922964e3984c' is not unique check attvals '5189648, 5063767'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bd8ff6b5-d6eb-42bc-88b9-31a231e44355' is not unique check attvals '5147104, 5118638'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/be3aaf88-5dac-4bf5-ae36-58b61ecc5e5d' is not unique check attvals '5186713, 4996332'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/be8e98e3-5a11-4fa3-a2de-8e570180d545' is not unique check attvals '5159007, 5199477'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/beed3609-b058-49fe-9d7a-e7475618b06c' is not unique check attvals '5197155, 4983750'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bf15262f-0a1b-457e-ab19-c2e815c98bc1' is not unique check attvals '5150602, 5137972'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/bfa075e1-444a-478b-b24f-fa5dbbf0da5f' is not unique check attvals '5198009, 4958424'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c2160f9b-d35c-4fe5-a659-dfdf7a9b51c5' is not unique check attvals '1884490, 4931743'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c22ff440-54b6-472f-b38a-ba0c176ab5b0' is not unique check attvals '5178694, 4978867'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c24a8970-2736-4b6d-b71c-c46e970d8d50' is not unique check attvals '5160144, 5148292'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c2b04c81-849c-49c8-8e5f-0ab6de9bd47b' is not unique check attvals '5183475, 5008748'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c2d53788-cc3e-445b-9f40-59731345df22' is not unique check attvals '5148760, 5028162'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c304c01f-ee66-4a88-83cf-b19cde8c46f4' is not unique check attvals '5176338, 5172618'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c35bc2f6-f76f-4af3-b78d-dbe617cfc9fd' is not unique check attvals '5151814, 5132309'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c45d3d8f-1c7d-4660-8860-0533da54235a' is not unique check attvals '5189715, 5187187'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c529b2b3-04e3-4a26-b06a-b9a8e63f7aae' is not unique check attvals '5057035, 4943029'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c609f633-15eb-431a-99eb-de0bd139ad94' is not unique check attvals '5147164, 4931415'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c76fa567-b010-4a8e-b564-91c5a8982941' is not unique check attvals '5166359, 5026541'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c7b6b954-39f6-4143-a087-7b9abf5074c9' is not unique check attvals '5190051, 5047582'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c81ffe1f-6401-481a-b8ed-02c053f4f5c4' is not unique check attvals '5191142, 5044006'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c8311e05-8483-4444-8444-ebb991eaf257' is not unique check attvals '5183765, 5038880'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c84b148f-b37c-4d27-b4ae-4c641af4b1e9' is not unique check attvals '5183536, 5011522'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c8ddde24-1d1b-466e-8395-642ac8f8655d' is not unique check attvals '5203610, 4933074'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c904821a-d781-4030-97a6-dae37a1625bb' is not unique check attvals '5159357, 5039337'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c98d5f74-3ab4-4167-8f38-b3fe8a4c18bf' is not unique check attvals '5154505, 5056752'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/c9af5599-ed5b-4094-ad36-c739bb583b25' is not unique check attvals '5145502, 5187970'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ca4e3141-9610-4489-b1c6-ce7ceb77fc78' is not unique check attvals '5178211, 5176390'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cada1319-3048-44c1-a4f7-7d8eecf14be2' is not unique check attvals '5145599, 5252134'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cb1c5c8a-58f2-4d57-b3e4-9993842ed73f' is not unique check attvals '5202306, 4933250'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cb464df6-fa6d-4981-9300-df799e03e095' is not unique check attvals '5165611, 5189984'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cb714811-da03-42ff-bc87-1cec18b967c0' is not unique check attvals '5197936, 4963749'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cbb13f68-5d71-42c0-842a-7974a83bf2c3' is not unique check attvals '5055447, 5124336'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cc203347-75ee-4aee-8d1c-65cf595ac04e' is not unique check attvals '5194637, 5101554'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cc3e6e00-baf9-4666-b7ae-5a3eb9d0f42f' is not unique check attvals '5191016, 5113659'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/cd110bc2-c8f8-4cd0-9736-41d9c0168a67' is not unique check attvals '5161107, 5121283'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ce04e602-30df-4c11-b732-187c19eb7d8f' is not unique check attvals '5147580, 4929527'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ce31d5f6-5aec-49b7-9254-2ff758a3441a' is not unique check attvals '5198979, 4951137'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d1faeb3f-94f2-4bd8-9b4b-df87c271c6f4' is not unique check attvals '5545830, 5364827'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d215dd85-5ffa-4f43-82be-7e345b174a4b' is not unique check attvals '5196999, 5163386'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d346e676-3a6d-415b-8aff-141ff79d483e' is not unique check attvals '5145397, 4985961'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d41eeb33-c996-4d43-903d-3f5e60491d58' is not unique check attvals '5177086, 5178052'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d5080639-5b42-464d-a281-a3bccd575a40' is not unique check attvals '5166665, 5016907'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d57d5c12-39d4-44cd-b5c4-2b48352b6e7b' is not unique check attvals '5162105, 5135706'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d5801041-668a-4c3d-91c1-15fcf7a44800' is not unique check attvals '5206780, 4933191'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d7b451fc-8a70-40aa-a324-5fd76109312a' is not unique check attvals '5198840, 4952366'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d816d665-25f6-4e58-9129-21c98b24b634' is not unique check attvals '5154651, 5021921'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d83a6905-0eb9-478a-9d74-6c95c3b0c446' is not unique check attvals '5199202, 4950955'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d8480944-8f61-4e79-b32a-147ac09b9d64' is not unique check attvals '5181176, 5007323'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d89d398a-ccb4-4923-9c7b-8a35cb9d3f64' is not unique check attvals '5150527, 5073848'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/d95ac781-d8f5-4366-b01d-f24ad9cac0ea' is not unique check attvals '5165914, 5042777'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/de83ddf3-43c1-4257-ba6b-353dd33ce3a6' is not unique check attvals '5158863, 5095806'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/dea4adf8-2e86-45dc-9cbb-0da9e3f13dcd' is not unique check attvals '5154884, 5053045'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/df04e289-3970-456c-a45e-ac92383bc910' is not unique check attvals '5161003, 4934705'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/df13d204-e844-47f1-9f36-c02e63ddfba4' is not unique check attvals '5159916, 5156098'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/df55ee9c-a903-41fa-8967-92b08c023fd8' is not unique check attvals '5184688, 4995284'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/df66fdc7-10fe-447c-8d56-c14acbf6d44a' is not unique check attvals '5160400, 5152650'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e02988c9-aa91-4713-afb0-560a3d0bcb32' is not unique check attvals '5190778, 4972913'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e0716ce2-e646-473a-9a18-c80916e46ae6' is not unique check attvals '5191211, 5223595'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e21a6620-cfa3-48ae-a29c-568e84904a04' is not unique check attvals '5155361, 5048466'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e21fb369-093d-43fd-a6d4-208a4f2f3848' is not unique check attvals '5198785, 4950023'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e225f87c-c3a9-4b54-b60c-19308d67a956' is not unique check attvals '5160777, 5035497'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e2a715bf-f950-4576-b0ac-c31821c5c04e' is not unique check attvals '5147647, 5164001'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e331cda2-106a-40a4-b49c-93b2d21330c6' is not unique check attvals '5596429, 5118402'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e3572ffc-58b0-4f45-9ba2-3035fef9de16' is not unique check attvals '5188650, 5000678'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e3748723-31e8-498e-bfd8-5a0eeff32eb0' is not unique check attvals '5148850, 5130571'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e47cf7b4-1ede-4462-ae7b-53f89883513e' is not unique check attvals '5152633, 5231755'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e4c54e23-d553-4412-a05b-cdf77d454829' is not unique check attvals '5190629, 4970345'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e6ccb74e-7cb9-451c-8cba-1ed25d85532c' is not unique check attvals '5150959, 4944461'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e8d5ced1-8729-4e3a-a04e-7659d1e64952' is not unique check attvals '5178649, 4979374'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e8f6aaff-6d9b-495c-9169-cb6d91df8089' is not unique check attvals '5586037, 5255325'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/e90b8bcf-5997-4cba-ae1a-0b6b03eafa36' is not unique check attvals '5182504, 5009442'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/eabfcb79-0af8-466b-bbb7-3d70b0df1d7a' is not unique check attvals '5198153, 4950478'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/eca586a6-435d-4f31-af8d-184f779a9449' is not unique check attvals '5199452, 4934044'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ed9aa423-57a7-4250-834d-fc941bb2c9f6' is not unique check attvals '5545444, 5365230'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ee9f9fa9-c664-4e32-8d8a-5a690cab7743' is not unique check attvals '5197828, 4950728'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/eec36044-d206-46fc-b9bc-fd1a9bb0df0a' is not unique check attvals '5196669, 5034928'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/eed9ba0d-a90d-4511-9df0-18155fe04fdd' is not unique check attvals '5191179, 4930741'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/eef4e812-bbbc-4ed8-bbc8-1880042a1830' is not unique check attvals '5147284, 5167018'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/effbc191-55c7-488f-9611-cedb7712f6c0' is not unique check attvals '5189748, 4964632'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f026a349-a357-4e2d-ac4e-6bc7cf013a0f' is not unique check attvals '5195650, 5102830'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f22397bb-ffe1-4563-a36d-94b3bc1e0c85' is not unique check attvals '5159401, 5041343'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f23e28ef-eb77-4216-8ff8-d1648ffa63be' is not unique check attvals '5179182, 5037209'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f278dc25-c608-456a-8313-6d8f88ac42cd' is not unique check attvals '5199084, 4950189'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f2d0dee6-da49-4ac4-a5c1-f5bdc0662e25' is not unique check attvals '5151845, 5132744'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f381c102-1ffe-48f4-bac9-fe4d59dfe77f' is not unique check attvals '5152794, 5140872'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f4e53627-aeff-406c-81a0-73f06001aa69' is not unique check attvals '5191385, 5046123'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f5d5e607-39f5-4662-91ed-45ebd5d1883c' is not unique check attvals '5148499, 5188897'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f698e6ee-b3c5-4b1f-b065-522bd4ec5496' is not unique check attvals '5213092, 4968577'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f6b9cfcd-89bd-491a-bebf-05b8744fb3c3' is not unique check attvals '5657542, 5470212'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f776ae67-51dc-4be6-9d1b-b8de7ccfa333' is not unique check attvals '5147830, 5265712'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f856e8f7-51d3-4961-8f0e-1050ec305a2e' is not unique check attvals '5195787, 5109100'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f8a45340-f54b-417d-a761-f5778632572a' is not unique check attvals '5147760, 5018237'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f8f297de-69ad-4f64-9783-f0cc2bd450a5' is not unique check attvals '5158065, 5184790'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/f99bc3bb-9c2c-4e1e-98c2-f17a7af56870' is not unique check attvals '5198272, 4949842'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fb2c6d55-ba12-497b-94b9-2676073c3077' is not unique check attvals '5162050, 4936687'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fb4aa046-4bea-4145-9cd2-569e0b7ff1f8' is not unique check attvals '5183341, 5006212'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fc59f788-a905-4467-a8f4-055d012110dc' is not unique check attvals '5199124, 4955975'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fcdfdee0-1a0b-4ca3-8c6d-716e13584764' is not unique check attvals '5162335, 4985109'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fd3dcdf6-cc7c-405e-9f1a-9a815514a778' is not unique check attvals '5146318, 5140404'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fde31950-878a-4161-98bd-b9f81ee63e6d' is not unique check attvals '5158165, 5183856'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fe59644b-e7a6-4688-83d5-d729f4a73f9e' is not unique check attvals '5158258, 5185176'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fe61d92c-cc93-45f2-9ccd-c68148623613' is not unique check attvals '5196620, 5034063'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/fe9234ab-290a-4671-b4a7-38704ede57f7' is not unique check attvals '5151041, 5194359'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ff63be28-9c6b-4546-a3ec-bd8b46b8612b' is not unique check attvals '5206710, 4933903'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ffc44ddb-dd18-416b-93b3-d64bea96a15f' is not unique check attvals '5164141, 5030214'&#xD;
+ E3: E - CCID:002563:  check_attnam_AppRef( 1072 (0-2-0-d4) ): AppRef 'Trm/Occ/ffdfce23-c8c1-4151-b7c8-6e4b4a7390bf' is not unique check attvals '5655735, 5470351'&#xD;
+ E3: I - check_connector_symbol( 3314640 (0-3a-0-107e4bd) ): The connection and symbol origin of a connector symbol 'CON_FRNT_41A296326ESP6' are not on the same y-Position.&#xD;
+ E3: E - CCID:002560:  check_active_and_valid_composites( 'COMP_ITEM/5379664 (0-12-0-1612589)' ): ValidComposite '1121078' is not a connector.&#xD;
+ E3: I - check_connector_symbol( 5838750 (0-3a-0-127ba2d) ): The connection and symbol origin of a connector symbol 'CON_FRNT_84A231062P25' are not on the same y-Position.&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002313:    248                    (check_string( %s ): control character '%#06x' found at [%d] in '%s'!) - activate TE_85 to list each info in the report list!&#xD;
+ E3: I - CCID:002560:      1  TRY REPAIR 046: - (check_active_and_valid_composites( '%s' ): ValidComposite '%s' is not a connector.)&#xD;
+ E3: I - CCID:002563:    614  TRY REPAIR 048: - (check_attnam_AppRef( %s ): AppRef '%s' is not unique check attvals '%s')&#xD;
+ E3: I - CCID:002578:      4                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -    867 total messages with 4 different check ids&#xD;
+ E3: Starting NX Routing import&#xD;
+ E3: E3.3DRoutingBridge (24.0.3.0)&#xD;
+ E3: Importing from NX routing...&#xD;
+ E3: Reading file c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\TestData\84A255401G1_ToZUKEN.plmxml...&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\Results\NX_Designer_40843_2.log'&#xD;
+ E3: Import finished.&#xD;
+ E3: I - Closing project '84A255401G1_Pre_Import' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\Use case_redu.e3s&#xD;
+ E3: I - Updating internal structures: 235 cycles up to version 2505...&#xD;
+ E3: 2270 &#xD;
+ E3: 2299 &#xD;
+ E3: 2300 &#xD;
+ E3: 2301 &#xD;
+ E3: 2302 &#xD;
+ E3: 2303 &#xD;
+ E3: 2304 &#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\Use case_redu.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\NXRouting_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- E3_ID&#xD;
+ E3:     	- NX-Type&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     	- NX-Type&#xD;
+ E3:     	- Partnumber&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\Elsa_02156.plmxml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\Results\NX_Elsa_02156.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'Use case_redu' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Elsa-02156\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_1.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_1_QM859.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_2.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_2_QM859.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_3.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_3_QM859.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3:     Attribute NXGUID          : default RESTRICTion parameters changed.&#xD;
+ E3:     Attribute NXGUID          : default OWNER types changed&#xD;
+ E3:     Attribute NXGUID          : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default OWNER types changed&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: Starting NX Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_4.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_4_QM859.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:19:09---</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1bf6327a-ba5f-4015-a6de-eae7a885879a" testId="6a4ba7f7-e2b6-1b58-1b45-34ceffd34da8" testName="Designer_40843_1" computerName="3B6F0F0C1D64" startTime="2023-10-10T12:15:04.3976005+02:00" endTime="2023-10-10T12:15:04.3976580+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bf6327a-ba5f-4015-a6de-eae7a885879a">
+      <Output></Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65a32a1e-9e54-4fa7-b81f-d0f15d16408c" testId="155672e2-89c5-4ddc-93cd-d89b11d8c8ef" testName="Designer_33800" computerName="3B6F0F0C1D64" duration="00:00:16.1854979" startTime="2023-10-10T12:14:16.3840159+02:00" endTime="2023-10-10T12:14:32.5731689+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65a32a1e-9e54-4fa7-b81f-d0f15d16408c">
+      <Output>
+        <StdOut>[12:14:16]  Start Test: Designer_33800&#xD;
+[12:14:17]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:22]  Setting current database Standard&#xD;
+[12:14:23]  E3 OpenJob&#xD;
+[12:14:23]  Doing repaircheck...&#xD;
+[12:14:23]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\Designer_33800.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\NX_Designer_33800.log" -processid 14740&#xD;
+[12:14:23]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:32]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:32]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\2023-10-10--12-14-32_Designer_33800_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33800\Results\2023-10-10--12-14-32_Designer_33800_ref_temp.plmxml&#xD;
+[12:14:32]  Test Designer_33800 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:32]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:32]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2d7ccdf-83f4-49cd-b771-c85b2c5f3cf8" testId="a5e442c7-4e3e-4241-89b7-511610d2101a" testName="Designer_23781" computerName="3B6F0F0C1D64" duration="00:00:15.8025679" startTime="2023-10-10T12:13:34.2592895+02:00" endTime="2023-10-10T12:13:59.1861543+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2d7ccdf-83f4-49cd-b771-c85b2c5f3cf8">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:34 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:00.6406250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:34 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:01.5781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:34 PM&#xD;
+Cnt: 3&#xD;
+---Start: 10.10.2023 - 12:13:43---
+&#xD;
+[12:13:43]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 14740&#xD;
+[12:13:43]  Start Test: Designer_23781&#xD;
+[12:13:44]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\..\Databases\Standard\Configuration.mdb&#xD;
+[12:13:48]  Setting current database Standard&#xD;
+[12:13:49]  E3 OpenJob&#xD;
+[12:13:50]  Doing repaircheck...&#xD;
+[12:13:50]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\Designer_23781.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\NX_Designer_23781.log" -processid 14740&#xD;
+[12:13:50]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:13:58]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:13:58]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\2023-10-10--12-13-58_Designer_23781_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-23781\Results\2023-10-10--12-13-58_Designer_23781_ref_temp.plmxml&#xD;
+[12:13:58]  Test Designer_23781 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:13:58]  Test  3DRoutingBridge is successful!&#xD;
+[12:13:58]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b73747b-a98f-4c6f-a0b0-22d2ff8c6118" testId="03858eb8-c79e-4805-b396-9bcfb7a7b813" testName="Designer_40843_2" computerName="3B6F0F0C1D64" duration="00:02:39.6254563" startTime="2023-10-10T12:15:04.3976580+02:00" endTime="2023-10-10T12:17:44.0217940+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b73747b-a98f-4c6f-a0b0-22d2ff8c6118">
+      <Output>
+        <StdOut>[12:15:04]  Start Test: Designer_40843_2&#xD;
+[12:15:05]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\..\Databases\Standard\Configuration.mdb&#xD;
+[12:15:10]  Setting current database Standard&#xD;
+[12:15:11]  E3 open project&#xD;
+[12:15:23]  Doing repaircheck...&#xD;
+[12:15:29]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:15:40]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:17:41]  test.NAME: Designer_40843_2&#xD;
+[12:17:41]  preparedOutputFile: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\Results\2023-10-10--12-17-39_Designer_40843_2_temp.xml&#xD;
+[12:17:41]  preparedReferenceFile: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\Results\2023-10-10--12-17-39_Designer_40843_2_ref_temp.xml&#xD;
+[12:17:41]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\Results\2023-10-10--12-17-39_Designer_40843_2_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-40843\Results\2023-10-10--12-17-39_Designer_40843_2_ref_temp.xml&#xD;
+[12:17:43]  Test Designer_40843_2 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:17:43]  Der Test  3DRoutingBridge is successful!&#xD;
+[12:17:43]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd35097f-393b-4ef2-a291-3829f3cee7d3" testId="489909f9-4b35-4e52-8115-c795c263b25e" testName="Designer_35104" computerName="3B6F0F0C1D64" duration="00:00:15.1601449" startTime="2023-10-10T12:14:49.2349538+02:00" endTime="2023-10-10T12:15:04.3809022+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd35097f-393b-4ef2-a291-3829f3cee7d3">
+      <Output>
+        <StdOut>[12:14:49]  Start Test: Designer_35104&#xD;
+[12:14:50]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:54]  Setting current database Standard&#xD;
+[12:14:55]  E3 OpenJob&#xD;
+[12:14:55]  Doing repaircheck...&#xD;
+[12:14:55]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\Designer_35104.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\NX_Designer_35104.log" -processid 14740&#xD;
+[12:14:55]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:15:04]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:15:04]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\2023-10-10--12-15-04_Designer_35104_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-35104\Results\2023-10-10--12-15-04_Designer_35104_ref_temp.plmxml&#xD;
+[12:15:04]  Test Designer_35104 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:15:04]  Test  3DRoutingBridge is successful!&#xD;
+[12:15:04]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29d9ba77-2977-425f-b6e9-9a330fe9f617" testId="34c96432-8379-47f6-a182-bec4a3849994" testName="Designer_42795_HarnessImport_NoBundleStructInXML" computerName="3B6F0F0C1D64" duration="00:00:00.0044523" startTime="2023-10-10T12:13:34.1525846+02:00" endTime="2023-10-10T12:13:34.2592895+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29d9ba77-2977-425f-b6e9-9a330fe9f617">
+      <Output>
+        <StdOut>[12:13:34]  Start Test: Designer_42795_HarnessImport_NoBundleStructInXML&#xD;
+[12:13:34]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\819992bc-a489-4cb1-a55c-e03487493c8f\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\TestData\Empty.e3s&#xD;
+ E3: I - Updating internal structures: 5 cycles up to version 2505...&#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\TestData\Empty.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: Starting Harness Import import&#xD;
+ E3:     Attribute BranchNodeID    : default DISPLAY parameters changed.&#xD;
+ E3:     Attribute .AppRef         : default DISPLAY parameters changed.&#xD;
+ E3: I - Loading DT06-2S as mating connector of DT04-2P... &#xD;
+ E3: I - Loading DT-C-S-AWG14-16 as crimp contact of DT04-2P... &#xD;
+ E3: I - Loading DT-C-S-AWG16-18 as crimp contact of DT04-2P... &#xD;
+ E3: I - Loading DT-C-B-AWG14-16 as crimp contact of DT06-2S... &#xD;
+ E3: I - Loading DT-C-B-AWG16-18 as crimp contact of DT06-2S... &#xD;
+ E3: W - Unknown attribute name 'CompClass_CoreIdent'&#xD;
+ E3: W - Unknown attribute name 'CompClass_Diameter'&#xD;
+ E3: W - Unknown attribute name 'CompClass_NumOfCores'&#xD;
+ E3: W - Unknown attribute name 'CompClass_Shield'&#xD;
+ E3: I - Formboard sheet 'JNä_2023' was created.&#xD;
+ E3: I - Closing project 'Empty' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:13:34---</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. lockfile already there: Designer_42795_HarnessImport_NoBundleStructInXML</Message>
+          <StackTrace>   at E3.BridgeTest.RoutingBridge.HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML() in C:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\Generate_Tests_From_Definition.cs:line 1373&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22b131c1-bb28-4075-8bc6-541198ed9365" testId="04805518-8e13-416c-9ddd-7d59201d4d52" testName="Export_Test_1_QM859" computerName="3B6F0F0C1D64" duration="00:00:16.0690082" startTime="2023-10-10T12:17:59.4037332+02:00" endTime="2023-10-10T12:18:15.4721100+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22b131c1-bb28-4075-8bc6-541198ed9365">
+      <Output>
+        <StdOut>[12:17:59]  Start Test: Export_Test_1_QM859&#xD;
+[12:18:00]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\..\Databases\Standard\Configuration.mdb&#xD;
+[12:18:04]  Setting current database Standard&#xD;
+[12:18:05]  E3 OpenJob&#xD;
+[12:18:05]  Doing repaircheck...&#xD;
+[12:18:06]  Toolstart-Parameter: -b -d export -NX -selectionmode HARNESS_ASSEMBLIES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NXRouting_Export_Test_1.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\NX_Export_Test_1_QM859.log" -processid 14740&#xD;
+[12:18:06]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:18:15]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:18:15]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-15_Export_Test_1_QM859_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\NXRouting_Export_QM859\Results\2023-10-10--12-18-15_Export_Test_1_QM859_ref_temp.xml&#xD;
+[12:18:15]  Test Export_Test_1_QM859 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:18:15]  Test  3DRoutingBridge is successful!&#xD;
+[12:18:15]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53fbad21-45e6-4e07-9601-dc1465ab6cc0" testId="592ef713-b3c4-4819-8024-b550c9c5a7be" testName="Designer_34883" computerName="3B6F0F0C1D64" duration="00:00:16.6594214" startTime="2023-10-10T12:14:32.5741682+02:00" endTime="2023-10-10T12:14:49.2339528+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53fbad21-45e6-4e07-9601-dc1465ab6cc0">
+      <Output>
+        <StdOut>[12:14:32]  Start Test: Designer_34883&#xD;
+[12:14:33]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:38]  Setting current database Standard&#xD;
+[12:14:39]  E3 OpenJob&#xD;
+[12:14:39]  Doing repaircheck...&#xD;
+[12:14:39]  Toolstart-Parameter: -b -d Export -NX -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\NXRouting_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\TestData\NXRouting_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\Designer_34883.plmxml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\NX_Designer_34883.log" -processid 14740&#xD;
+[12:14:39]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:48]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:49]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\2023-10-10--12-14-48_Designer_34883_temp.plmxml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-34883\Results\2023-10-10--12-14-48_Designer_34883_ref_temp.plmxml&#xD;
+[12:14:49]  Test Designer_34883 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:49]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:49]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7f9eba15-393b-4078-ae24-238e57107083" testId="1a772a6f-c355-4bf0-95ba-38650498448b" testName="Designer_42795_HarnessImport_BundleStructInXML" computerName="3B6F0F0C1D64" duration="00:00:00.4814365" startTime="2023-10-10T12:13:00.9154815+02:00" endTime="2023-10-10T12:13:11.6490304+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f9eba15-393b-4078-ae24-238e57107083">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:01 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:01.0625000&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:01 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:02.0312500&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:01 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:02.9843750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:01 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:13:11---
+&#xD;
+[12:13:11]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 11556&#xD;
+[12:13:11]  Start Test: Designer_42795_HarnessImport_BundleStructInXML&#xD;
+[12:13:11]  TestCleanup</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. lockfile already there: Designer_42795_HarnessImport_BundleStructInXML</Message>
+          <StackTrace>   at E3.BridgeTest.RoutingBridge.HarnessImport.Designer_42795_HarnessImport_BundleStructInXML() in C:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\Generate_Tests_From_Definition.cs:line 1291&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Designer_33296" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="3327c070-3e54-4f9f-b7e0-f92498d9af78">
+      <Execution id="db73fc8e-5cc8-4ebc-84d9-0d45e8bb3a5b" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_33296" />
+    </UnitTest>
+    <UnitTest name="Designer_23781" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="a5e442c7-4e3e-4241-89b7-511610d2101a">
+      <Execution id="e2d7ccdf-83f4-49cd-b771-c85b2c5f3cf8" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_23781" />
+    </UnitTest>
+    <UnitTest name="Designer_42233" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="5fb23bf9-06f7-12cd-111a-b34df770ef0e">
+      <Execution id="fe50bb27-1e5c-4ab3-a2eb-f1dfea3a4006" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_42233" />
+    </UnitTest>
+    <UnitTest name="Designer_34883" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="592ef713-b3c4-4819-8024-b550c9c5a7be">
+      <Execution id="53fbad21-45e6-4e07-9601-dc1465ab6cc0" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_34883" />
+    </UnitTest>
+    <UnitTest name="Export_Test_4_QM859" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="4ac8240d-0d41-4395-ae12-9885de232d56">
+      <Execution id="ef54aa93-5873-4400-ac39-8cad3418a9d7" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Export_Test_4_QM859" />
+    </UnitTest>
+    <UnitTest name="Designer_33800" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="155672e2-89c5-4ddc-93cd-d89b11d8c8ef">
+      <Execution id="65a32a1e-9e54-4fa7-b81f-d0f15d16408c" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_33800" />
+    </UnitTest>
+    <UnitTest name="Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="9240455a-94e4-4f5c-adfe-fe13e0896d64">
+      <Execution id="7a15657f-288a-4788-ab55-1e6899f746d6" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+HarnessImport" name="Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames" />
+    </UnitTest>
+    <UnitTest name="Designer_40843_2" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="03858eb8-c79e-4805-b396-9bcfb7a7b813">
+      <Execution id="5b73747b-a98f-4c6f-a0b0-22d2ff8c6118" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_40843_2" />
+    </UnitTest>
+    <UnitTest name="Designer_35104" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="489909f9-4b35-4e52-8115-c795c263b25e">
+      <Execution id="cd35097f-393b-4ef2-a291-3829f3cee7d3" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_35104" />
+    </UnitTest>
+    <UnitTest name="Export_Test_2_QM859" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="8c2461cb-23a4-4684-86c5-43dd47c60b48">
+      <Execution id="d72348dd-44ea-4fcb-a676-0bc6e369affb" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Export_Test_2_QM859" />
+    </UnitTest>
+    <UnitTest name="Export_Test_1_QM859" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="04805518-8e13-416c-9ddd-7d59201d4d52">
+      <Execution id="22b131c1-bb28-4075-8bc6-541198ed9365" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Export_Test_1_QM859" />
+    </UnitTest>
+    <UnitTest name="Designer_42795_HarnessImport_BundleStructInXML" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="1a772a6f-c355-4bf0-95ba-38650498448b">
+      <Execution id="7f9eba15-393b-4078-ae24-238e57107083" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+HarnessImport" name="Designer_42795_HarnessImport_BundleStructInXML" />
+    </UnitTest>
+    <UnitTest name="Designer_40843_1" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="6a4ba7f7-e2b6-1b58-1b45-34ceffd34da8">
+      <Execution id="1bf6327a-ba5f-4015-a6de-eae7a885879a" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Designer_40843_1" />
+    </UnitTest>
+    <UnitTest name="Designer_42795_HarnessImport_NoBundleStructInXML" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="34c96432-8379-47f6-a182-bec4a3849994">
+      <Execution id="29d9ba77-2977-425f-b6e9-9a330fe9f617" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+HarnessImport" name="Designer_42795_HarnessImport_NoBundleStructInXML" />
+    </UnitTest>
+    <UnitTest name="Export_Test_3_QM859" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="2fa18d3d-ca92-411f-bf8e-edf498c6f1c8">
+      <Execution id="b8cce8c7-1664-4805-8c39-007a1447ec61" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Export_Test_3_QM859" />
+    </UnitTest>
+    <UnitTest name="Elsa_02156" storage="c:\819992bc-a489-4cb1-a55c-e03487493c8f\e3.bridgetest.dll" id="28c6ed95-fcac-483d-81ee-6b0945122729">
+      <Execution id="3e13fb6b-d2fe-4d5d-b124-9c734fd52c50" />
+      <TestMethod codeBase="C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+NX" name="Elsa_02156" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5fb23bf9-06f7-12cd-111a-b34df770ef0e" executionId="fe50bb27-1e5c-4ab3-a2eb-f1dfea3a4006" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fa18d3d-ca92-411f-bf8e-edf498c6f1c8" executionId="b8cce8c7-1664-4805-8c39-007a1447ec61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28c6ed95-fcac-483d-81ee-6b0945122729" executionId="3e13fb6b-d2fe-4d5d-b124-9c734fd52c50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3327c070-3e54-4f9f-b7e0-f92498d9af78" executionId="db73fc8e-5cc8-4ebc-84d9-0d45e8bb3a5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c2461cb-23a4-4684-86c5-43dd47c60b48" executionId="d72348dd-44ea-4fcb-a676-0bc6e369affb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9240455a-94e4-4f5c-adfe-fe13e0896d64" executionId="7a15657f-288a-4788-ab55-1e6899f746d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ac8240d-0d41-4395-ae12-9885de232d56" executionId="ef54aa93-5873-4400-ac39-8cad3418a9d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a4ba7f7-e2b6-1b58-1b45-34ceffd34da8" executionId="1bf6327a-ba5f-4015-a6de-eae7a885879a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="155672e2-89c5-4ddc-93cd-d89b11d8c8ef" executionId="65a32a1e-9e54-4fa7-b81f-d0f15d16408c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5e442c7-4e3e-4241-89b7-511610d2101a" executionId="e2d7ccdf-83f4-49cd-b771-c85b2c5f3cf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03858eb8-c79e-4805-b396-9bcfb7a7b813" executionId="5b73747b-a98f-4c6f-a0b0-22d2ff8c6118" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="489909f9-4b35-4e52-8115-c795c263b25e" executionId="cd35097f-393b-4ef2-a291-3829f3cee7d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34c96432-8379-47f6-a182-bec4a3849994" executionId="29d9ba77-2977-425f-b6e9-9a330fe9f617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04805518-8e13-416c-9ddd-7d59201d4d52" executionId="22b131c1-bb28-4075-8bc6-541198ed9365" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592ef713-b3c4-4819-8024-b550c9c5a7be" executionId="53fbad21-45e6-4e07-9601-dc1465ab6cc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a772a6f-c355-4bf0-95ba-38650498448b" executionId="7f9eba15-393b-4078-ae24-238e57107083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="14" passed="12" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+Test 'Designer_40843_1' was skipped in the test run.&#xD;
+Test 'Designer_42233' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="3B6F0F0C1D64" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="3B6F0F0C1D64\ContainerAdministrator_3B6F0F0C1D64_2023-10-10.12_12_57.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

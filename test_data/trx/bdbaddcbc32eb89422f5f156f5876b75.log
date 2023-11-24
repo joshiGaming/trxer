@@ -1,0 +1,130 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML,E3.BridgeTest.RoutingBridge+NX.Designer_23781,E3.BridgeTest.RoutingBridge+NX.Designer_33296,E3.BridgeTest.RoutingBridge+NX.Designer_33800,E3.BridgeTest.RoutingBridge+NX.Designer_34883,E3.BridgeTest.RoutingBridge+NX.Designer_35104,E3.BridgeTest.RoutingBridge+NX.Designer_40843_1,E3.BridgeTest.RoutingBridge+NX.Designer_40843_2,E3.BridgeTest.RoutingBridge+NX.Designer_42233,E3.BridgeTest.RoutingBridge+NX.Elsa_02156,E3.BridgeTest.RoutingBridge+NX.Export_Test_1_QM859,E3.BridgeTest.RoutingBridge+NX.Export_Test_2_QM859,E3.BridgeTest.RoutingBridge+NX.Export_Test_3_QM859,E3.BridgeTest.RoutingBridge+NX.Export_Test_4_QM859
+
+Starting test discovery, please wait...
+A total of 16 tests were discovered but some tests do not match the specified selection criteria(E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames). Use right value(s) and try again.
+4.1929
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\819992bc-a489-4cb1-a55c-e03487493c8f\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Failed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML [481 ms]
+  Error Message:
+   Assert.IsTrue failed. lockfile already there: Designer_42795_HarnessImport_BundleStructInXML
+  Stack Trace:
+     at E3.BridgeTest.RoutingBridge.HarnessImport.Designer_42795_HarnessImport_BundleStructInXML() in C:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\Generate_Tests_From_Definition.cs:line 1291
+
+  Standard Output Messages:
+ TotalProcessorTime: 00:00:00.0781250
+ ProcessName: E3.series
+ StartTime: 10/10/2023 12:13:01 PM
+ Cnt: 1
+ TotalProcessorTime: 00:00:01.0625000
+ ProcessName: E3.series
+ StartTime: 10/10/2023 12:13:01 PM
+ Cnt: 2
+ TotalProcessorTime: 00:00:02.0312500
+ ProcessName: E3.series
+ StartTime: 10/10/2023 12:13:01 PM
+ Cnt: 3
+ TotalProcessorTime: 00:00:02.9843750
+ ProcessName: E3.series
+ StartTime: 10/10/2023 12:13:01 PM
+ Cnt: 4
+ ---Start: 10.10.2023 - 12:13:11---
+
+ [12:13:11]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 11556
+ [12:13:11]  Start Test: Designer_42795_HarnessImport_BundleStructInXML
+ [12:13:11]  TestCleanup
+
+
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames [22 s]
+  Failed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML [4 ms]
+  Error Message:
+   Assert.IsTrue failed. lockfile already there: Designer_42795_HarnessImport_NoBundleStructInXML
+  Stack Trace:
+     at E3.BridgeTest.RoutingBridge.HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML() in C:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\Generate_Tests_From_Definition.cs:line 1373
+
+  Standard Output Messages:
+ [12:13:34]  Start Test: Designer_42795_HarnessImport_NoBundleStructInXML
+ [12:13:34]  TestCleanup
+ 
+_____________________E3 output below_____________________
+
+  E3: EÂ³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit
+  E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!
+  E3: Project C:\819992bc-a489-4cb1-a55c-e03487493c8f\temp.e3s created.
+  E3: I - Item Validation enabled
+  E3: I - Validating project
+  E3: I - Validation enabled for this project
+  E3: I - Closing project 'temp' without saving modifications...
+  E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\TestData\Empty.e3s
+  E3: I - Updating internal structures: 5 cycles up to version 2505...
+  E3: 2500 
+  E3: 2501 
+  E3: 2502 
+  E3: 2503 
+  E3: 2504 
+  E3: OK.
+  E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-42795_HarnessImport\TestData\Empty.e3s opened.
+  E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!
+  E3: I - Item Validation enabled
+  E3: I - Validating project
+  E3: I - Validation enabled for this project
+  E3: repair_check_extended(0)
+  E3: --------------------------------------------------------------------------
+  E3: consistency check (17)....
+
+  E3: ....
+
+  E3: dump lost....
+
+  E3: ....
+
+  E3: new consistency check (45) and dump lost items (46)....
+
+  E3: ....
+
+  E3: - done -------------------------------------------------------------------
+
+  E3: I - No known issues found
+  E3: Starting Harness Import import
+  E3:     Attribute BranchNodeID    : default DISPLAY parameters changed.
+  E3:     Attribute .AppRef         : default DISPLAY parameters changed.
+  E3: I - Loading DT06-2S as mating connector of DT04-2P... 
+  E3: I - Loading DT-C-S-AWG14-16 as crimp contact of DT04-2P... 
+  E3: I - Loading DT-C-S-AWG16-18 as crimp contact of DT04-2P... 
+  E3: I - Loading DT-C-B-AWG14-16 as crimp contact of DT06-2S... 
+  E3: I - Loading DT-C-B-AWG16-18 as crimp contact of DT06-2S... 
+  E3: W - Unknown attribute name 'CompClass_CoreIdent'
+  E3: W - Unknown attribute name 'CompClass_Diameter'
+  E3: W - Unknown attribute name 'CompClass_NumOfCores'
+  E3: W - Unknown attribute name 'CompClass_Shield'
+  E3: I - Formboard sheet 'JNÃ¤_2023' was created.
+  E3: I - Closing project 'Empty' without saving modifications...
+ 
+---Finish: 10.10.2023 - 12:13:34---
+
+
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_23781 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_33296 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_33800 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_34883 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_35104 [15 s]
+  Skipped Designer_40843_1
+  Passed E3.BridgeTest.RoutingBridge+NX.Designer_40843_2 [2 m 39 s]
+  Skipped Designer_42233
+  Passed E3.BridgeTest.RoutingBridge+NX.Elsa_02156 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Export_Test_1_QM859 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Export_Test_2_QM859 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Export_Test_3_QM859 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+NX.Export_Test_4_QM859 [19 s]
+Results File: C:\819992bc-a489-4cb1-a55c-e03487493c8f\TestResults\ContainerAdministrator_3B6F0F0C1D64_2023-10-10_12_13_11.trx
+
+Attachments:
+  C:\819992bc-a489-4cb1-a55c-e03487493c8f\TestResults\a5c247e1-cd36-412b-9fb3-8bad2320676b\ContainerAdministrator_3B6F0F0C1D64_2023-10-10.12_12_57.coverage
+Total tests: 16
+     Passed: 12
+     Failed: 2
+    Skipped: 2
+ Total time: 6.1960 Minutes

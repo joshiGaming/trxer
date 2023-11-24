@@ -1,0 +1,19 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+KblExport.KBL_1,E3.BridgeTest.RoutingBridge+KblExport.KBL_DynamicCableOption
+
+Starting test discovery, please wait...
+3.1911
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+KblExport.KBL_1 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+KblExport.KBL_DynamicCableOption [17 s]
+Results File: C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\TestResults\ContainerAdministrator_8E9AA52A30C4_2023-10-10_12_11_26.trx
+
+Attachments:
+  C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\TestResults\565ebd51-f8c0-4ecd-8eec-8629ba41a37d\ContainerAdministrator_8E9AA52A30C4_2023-10-10.12_10_54.coverage
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 50.4860 Seconds

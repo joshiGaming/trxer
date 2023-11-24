@@ -1,0 +1,21 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+PROE.Designer_31035,E3.BridgeTest.RoutingBridge+PROE.Designer_32298,E3.BridgeTest.RoutingBridge+PROE.Designer_33327,E3.BridgeTest.RoutingBridge+PROE.Designer_33488
+
+Starting test discovery, please wait...
+4.1289
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+PROE.Designer_31035 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+PROE.Designer_32298 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+PROE.Designer_33327 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+PROE.Designer_33488 [15 s]
+Results File: C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\TestResults\ContainerAdministrator_0B88B1401328_2023-10-10_12_01_43.trx
+
+Attachments:
+  C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\TestResults\62f0e36a-953d-4c4b-b406-38dbf3a6372c\ContainerAdministrator_0B88B1401328_2023-10-10.12_01_12.coverage
+Test Run Successful.
+Total tests: 4
+     Passed: 4
+ Total time: 1.3264 Minutes

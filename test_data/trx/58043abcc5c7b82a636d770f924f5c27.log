@@ -1,0 +1,22 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+SOLIDWORKS.Designer_30766,E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_1_QM866,E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_2_QM866,E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_3_QM866,E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_4_QM866
+
+Starting test discovery, please wait...
+4.1123
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+SOLIDWORKS.Designer_30766 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_1_QM866 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_2_QM866 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_3_QM866 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+SOLIDWORKS.Export_Test_4_QM866 [16 s]
+Results File: C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\TestResults\ContainerAdministrator_D7BE845ABE52_2023-10-10_12_13_47.trx
+
+Attachments:
+  C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\TestResults\2883aeb4-8fc7-43fb-9cac-a137027c9654\ContainerAdministrator_D7BE845ABE52_2023-10-10.12_13_15.coverage
+Test Run Successful.
+Total tests: 5
+     Passed: 5
+ Total time: 1.6695 Minutes

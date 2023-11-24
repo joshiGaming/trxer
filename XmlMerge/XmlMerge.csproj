@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="functions.js" />
+    <None Remove="Html.xslt" />
+    <None Remove="Test.xml.htm" />
+    <None Remove="Trxer.css" />
+    <None Remove="Trxer.xslt" />
+    <None Remove="TrxerTable.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="functions.js" />
+    <EmbeddedResource Include="Html.xslt" />
+    <EmbeddedResource Include="Test.xml.htm" />
+    <EmbeddedResource Include="Trxer.css" />
+    <EmbeddedResource Include="Trxer.xslt" />
+    <EmbeddedResource Include="TrxerTable.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TestPlatform" Version="17.9.0-pre" />
+    <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="17.7.2" />
+  </ItemGroup>
+
+</Project>

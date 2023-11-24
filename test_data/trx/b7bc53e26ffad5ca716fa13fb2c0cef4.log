@@ -1,0 +1,25 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+CATIA.Export_Test_1_QM861,E3.BridgeTest.RoutingBridge+CATIA.Export_Test_2_QM861,E3.BridgeTest.RoutingBridge+CATIA.Export_Test_3_QM861,E3.BridgeTest.RoutingBridge+CATIA.Export_Test_4_QM861,E3.BridgeTest.RoutingBridge+CATIA.Designer_33104,E3.BridgeTest.RoutingBridge+CATIA.Designer_39083,E3.BridgeTest.RoutingBridge+CATIA.Designer_41654,E3.BridgeTest.RoutingBridge+CATIAVAR.Export_Test_5_QM861
+
+Starting test discovery, please wait...
+5.1404
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Export_Test_1_QM861 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Export_Test_2_QM861 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Export_Test_3_QM861 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Export_Test_4_QM861 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Designer_33104 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Designer_39083 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIA.Designer_41654 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+CATIAVAR.Export_Test_5_QM861 [14 s]
+Results File: C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\TestResults\ContainerAdministrator_8CAF2593C43D_2023-10-10_12_04_14.trx
+
+Attachments:
+  C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\TestResults\a19bc5f2-ad71-4d7c-a52d-0d04f4132eea\ContainerAdministrator_8CAF2593C43D_2023-10-10.12_03_42.coverage
+Test Run Successful.
+Total tests: 8
+     Passed: 8
+ Total time: 2.5104 Minutes

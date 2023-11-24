@@ -1,0 +1,90 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_A_B_initial_QM829,E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_A_B_weg_QM829,E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_B_weg_QM829,E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_C_dazu_QM829,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31159,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31172,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31705,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31785,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31894,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_32375,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_32394,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_35915,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36162,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36659,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36701,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36705,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36808_2,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36808,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36924,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37339,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37636,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37681,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37724,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37735,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_38202,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_39086,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41384,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41425_1,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41425_2,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42554_Import,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML,E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42803_HarnessImport_NoSignalConflictOnBranches,E3.BridgeTest.RoutingBridge+HarnessImport.SpezialImport_1_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.SpezialImport_2_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Import_10_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Import_11_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Import_12_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_1_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_2_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_3_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_4_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_5_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_6_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_7_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_8_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_9_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_1_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_2_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_3_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_4_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_5_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_6_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_7_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_8_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_9_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Update_10_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Update_11_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Update_12_QM850,E3.BridgeTest.RoutingBridge+HarnessImport.Import_Optionen_QM836
+
+Starting test discovery, please wait...
+A total of 61 tests were discovered but some tests do not match the specified selection criteria(E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames). Use right value(s) and try again.
+4.1982
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\b5b4a108-6b54-44cb-9ba3-2f6deb52c48e\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_A_B_initial_QM829 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_A_B_weg_QM829 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_B_weg_QM829 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.AttributeUpdateTest_C_dazu_QM829 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31159 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31172 [23 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31705 [29 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31785 [26 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_31894 [38 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_32375 [50 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_32394 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_35915 [19 s]
+  Skipped Designer_36162
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36659 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36701 [39 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36705 [40 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36808_2 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36808 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_36924 [46 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37339 [50 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37636 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37681 [42 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37724 [23 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_37735 [20 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_38202 [39 s]
+  Skipped Designer_39086
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41384 [24 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41425_1 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_41425_2 [54 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42554_Import [20 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML [19 s]
+  Failed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames [142 ms]
+  Error Message:
+   Assert.IsTrue failed. lockfile already there: Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames
+  Stack Trace:
+     at E3.BridgeTest.RoutingBridge.HarnessImport.Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames() in C:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\Generate_Tests_From_Definition.cs:line 1332
+
+  Standard Output Messages:
+ [12:13:29]  Start Test: Designer_42795_HarnessImport_BundleStructInXML_SameCoreNames
+ [12:13:29]  TestCleanup
+
+
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42795_HarnessImport_NoBundleStructInXML [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Designer_42803_HarnessImport_NoSignalConflictOnBranches [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.SpezialImport_1_QM850 [21 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.SpezialImport_2_QM850 [27 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Import_10_QM850 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Import_11_QM850 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Import_12_QM850 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_1_QM850 [39 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_2_QM850 [39 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_3_QM850 [39 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_4_QM850 [38 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_5_QM850 [40 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_6_QM850 [40 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_7_QM850 [40 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_8_QM850 [43 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Template_DynSymbole_9_QM850 [43 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_1_QM850 [36 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_2_QM850 [35 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_3_QM850 [36 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_4_QM850 [36 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_5_QM850 [36 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_6_QM850 [37 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_7_QM850 [37 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_8_QM850 [41 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.ProtectionsImport_9_QM850 [43 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Update_10_QM850 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Update_11_QM850 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Update_12_QM850 [19 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessImport.Import_Optionen_QM836 [18 s]
+Results File: C:\b5b4a108-6b54-44cb-9ba3-2f6deb52c48e\TestResults\ContainerAdministrator_EF62BDD48EA6_2023-10-10_12_00_23.trx
+
+Attachments:
+  C:\b5b4a108-6b54-44cb-9ba3-2f6deb52c48e\TestResults\626c3e8b-46aa-4dc6-97b8-181bb9010328\ContainerAdministrator_EF62BDD48EA6_2023-10-10.11_59_50.coverage
+Total tests: 61
+     Passed: 58
+     Failed: 1
+    Skipped: 2
+ Total time: 29.0453 Minutes

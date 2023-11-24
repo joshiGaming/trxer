@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="eb1e6283-e514-4a20-972f-299915ac9bb4" name="ContainerAdministrator@8CAF2593C43D 2023-10-10 12:04:14" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:04:14.4383841+02:00" queuing="2023-10-10T12:04:14.4383841+02:00" start="2023-10-10T12:03:40.9043564+02:00" finish="2023-10-10T12:06:13.6039153+02:00" />
+  <TestSettings name="default" id="640408a6-9524-4940-a0d4-bef641aa9c1c">
+    <Deployment runDeploymentRoot="5dac81e34d32a32a2a45b1e2d6a15dd5" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="aa8bc6ca-91a6-4e70-83e1-f4b32d8ee2cf" testId="4f22af18-5e89-4741-8562-830ca6f2db8b" testName="Export_Test_1_QM861" computerName="8CAF2593C43D" duration="00:00:18.3073519" startTime="2023-10-10T12:03:45.7914720+02:00" endTime="2023-10-10T12:04:14.3568704+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa8bc6ca-91a6-4e70-83e1-f4b32d8ee2cf">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0468750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:03:46 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:01.0625000&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:03:46 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:02.0468750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:03:46 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:03&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:03:46 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:03:55---
+&#xD;
+[12:03:56]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 53100&#xD;
+[12:03:56]  Start Test: Export_Test_1_QM861&#xD;
+[12:03:56]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Configuration.mdb&#xD;
+[12:04:01]  Setting current database Standard&#xD;
+[12:04:01]  E3 OpenJob&#xD;
+[12:04:02]  Doing repaircheck...&#xD;
+[12:04:03]  Toolstart-Parameter: -b -d export -CATIA -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_1.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_1_QM861.log" -processid 53100&#xD;
+[12:04:03]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:04:13]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:04:14]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-13_Export_Test_1_QM861_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-13_Export_Test_1_QM861_ref_temp.xml&#xD;
+[12:04:14]  Test Export_Test_1_QM861 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:04:14]  Test  3DRoutingBridge is successful!&#xD;
+[12:04:14]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ca8bd41-850e-47d2-87ea-43375d4e6760" testId="2562d4f8-8461-4eb0-a138-51c37baee6c7" testName="Export_Test_2_QM861" computerName="8CAF2593C43D" duration="00:00:15.8352788" startTime="2023-10-10T12:04:14.3892569+02:00" endTime="2023-10-10T12:04:30.2304986+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ca8bd41-850e-47d2-87ea-43375d4e6760">
+      <Output>
+        <StdOut>[12:04:14]  Start Test: Export_Test_2_QM861&#xD;
+[12:04:15]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Configuration.mdb&#xD;
+[12:04:19]  Setting current database Standard&#xD;
+[12:04:20]  E3 OpenJob&#xD;
+[12:04:21]  Doing repaircheck...&#xD;
+[12:04:21]  Toolstart-Parameter: -b -d export -CATIA -selectionmode HARNESS_ASSEMBLIES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_2.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_2_QM861.log" -processid 53100&#xD;
+[12:04:21]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:04:30]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:04:30]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-30_Export_Test_2_QM861_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-30_Export_Test_2_QM861_ref_temp.xml&#xD;
+[12:04:30]  Test Export_Test_2_QM861 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:04:30]  Test  3DRoutingBridge is successful!&#xD;
+[12:04:30]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55e74b39-4e3c-426d-8eec-7b24fab28043" testId="61514960-e14b-417a-a317-ffe798a78118" testName="Designer_33104" computerName="8CAF2593C43D" duration="00:00:15.3662856" startTime="2023-10-10T12:05:02.8236868+02:00" endTime="2023-10-10T12:05:18.2015742+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55e74b39-4e3c-426d-8eec-7b24fab28043">
+      <Output>
+        <StdOut>[12:05:02]  Start Test: Designer_33104&#xD;
+[12:05:03]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\..\Databases\Standard\Configuration.mdb&#xD;
+[12:05:08]  Setting current database Standard&#xD;
+[12:05:08]  E3 OpenJob&#xD;
+[12:05:09]  Doing repaircheck...&#xD;
+[12:05:09]  Toolstart-Parameter: -b -d Export -CATIA -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\Designer_33104_CATIA.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\CATIA_Designer_33104.log" -processid 53100&#xD;
+[12:05:09]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:05:17]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:05:17]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\2023-10-10--12-05-17_Designer_33104_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\2023-10-10--12-05-17_Designer_33104_ref_temp.xml&#xD;
+[12:05:17]  Test Designer_33104 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:05:17]  Test  3DRoutingBridge is successful!&#xD;
+[12:05:17]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce69d1bc-c9ee-4129-83a1-69fc5f5046cd" testId="6d7dd684-1a23-4c10-8213-c458105b79cb" testName="Export_Test_3_QM861" computerName="8CAF2593C43D" duration="00:00:17.1530972" startTime="2023-10-10T12:04:30.2304986+02:00" endTime="2023-10-10T12:04:47.3952231+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce69d1bc-c9ee-4129-83a1-69fc5f5046cd">
+      <Output>
+        <StdOut>[12:04:30]  Start Test: Export_Test_3_QM861&#xD;
+[12:04:31]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Configuration.mdb&#xD;
+[12:04:35]  Setting current database Standard&#xD;
+[12:04:36]  E3 OpenJob&#xD;
+[12:04:37]  Doing repaircheck...&#xD;
+[12:04:37]  Toolstart-Parameter: -b -d export -CATIA -selectionmode CABLES_AND_WIRES_GROUPED_BY_ATTRIBUTE -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_3.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_3_QM861.log" -processid 53100&#xD;
+[12:04:37]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:04:47]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:04:47]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-47_Export_Test_3_QM861_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-04-47_Export_Test_3_QM861_ref_temp.xml&#xD;
+[12:04:47]  Test Export_Test_3_QM861 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:04:47]  Test  3DRoutingBridge is successful!&#xD;
+[12:04:47]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7d00c04-5b6f-41a9-a93d-f4956c325003" testId="2d3d7919-7f09-43ed-9367-fe86a9ffc167" testName="Export_Test_5_QM861" computerName="8CAF2593C43D" duration="00:00:14.1459962" startTime="2023-10-10T12:05:49.5283096+02:00" endTime="2023-10-10T12:06:12.9126174+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7d00c04-5b6f-41a9-a93d-f4956c325003">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0156250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:05:49 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:00.6093750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:05:49 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:01.6093750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:05:49 PM&#xD;
+Cnt: 3&#xD;
+---Start: 10.10.2023 - 12:05:58---
+&#xD;
+[12:05:58]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 18180&#xD;
+[12:05:58]  Start Test: Export_Test_5_QM861&#xD;
+[12:05:59]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Configuration.mdb&#xD;
+[12:06:04]  Setting current database Standard&#xD;
+[12:06:05]  E3 OpenJob&#xD;
+[12:06:06]  Doing repaircheck...&#xD;
+[12:06:07]  Toolstart-Parameter: -b -d export -CATIAVAR -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Variants_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAVAR_Export_Test_5.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAVAR_Export_Test_5_QM861.log" -processid 18180&#xD;
+[12:06:07]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:06:12]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:06:12]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-06-12_Export_Test_5_QM861_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-06-12_Export_Test_5_QM861_ref_temp.xml&#xD;
+[12:06:12]  Test Export_Test_5_QM861 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:06:12]  Test  3DRoutingBridge is successful!&#xD;
+[12:06:12]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Project C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting CATIA V5 Variants export&#xD;
+ E3: I - No code page number given! Using system default codepage '1252'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W1'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'YE' in cable '-W1'&#xD;
+ E3: No variant information found for core 'GY' in cable '-W1'&#xD;
+ E3: No variant information found for core 'PK' in cable '-W1'&#xD;
+ E3: No variant information found for core 'BU' in cable '-W1'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W1'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'YE' in cable '-W1'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W1'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W1'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'YE' in cable '-W4'&#xD;
+ E3: No variant information found for core 'GY' in cable '-W4'&#xD;
+ E3: No variant information found for core 'PK' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BU' in cable '-W4'&#xD;
+ E3: No variant information found for core 'RD' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BK' in cable '-W4'&#xD;
+ E3: No variant information found for core 'VT' in cable '-W4'&#xD;
+ E3: No variant information found for core 'GYPK' in cable '-W4'&#xD;
+ E3: No variant information found for core 'RDBU' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHGN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BNGN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHYE' in cable '-W4'&#xD;
+ E3: No variant information found for core 'YEBN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHGY' in cable '-W4'&#xD;
+ E3: No variant information found for core 'GYBN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHPK' in cable '-W4'&#xD;
+ E3: No variant information found for core 'PKBN' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHBU' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BNBU' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHRD' in cable '-W4'&#xD;
+ E3: No variant information found for core 'BNRD' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WHBK' in cable '-W4'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W5'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W5'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W5'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W6'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W6'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W6'&#xD;
+ E3: No variant information found for core 'YE' in cable '-W6'&#xD;
+ E3: No variant information found for core 'GY' in cable '-W6'&#xD;
+ E3: No variant information found for core 'PK' in cable '-W6'&#xD;
+ E3: No variant information found for core 'BU' in cable '-W6'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W7'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W7'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W7'&#xD;
+ E3: No variant information found for core 'YE' in cable '-W7'&#xD;
+ E3: No variant information found for core '1' in cable '-W8'&#xD;
+ E3: No variant information found for core '2' in cable '-W8'&#xD;
+ E3: No variant information found for core '3' in cable '-W8'&#xD;
+ E3: No variant information found for core '4' in cable '-W8'&#xD;
+ E3: No variant information found for core '5' in cable '-W8'&#xD;
+ E3: No variant information found for core '6' in cable '-W8'&#xD;
+ E3: No variant information found for core 'GNYE' in cable '-W8'&#xD;
+ E3: No variant information found for core '1' in cable '-W11'&#xD;
+ E3: No variant information found for core '2' in cable '-W11'&#xD;
+ E3: No variant information found for core 'WH' in cable '-W14'&#xD;
+ E3: No variant information found for core 'BN' in cable '-W14'&#xD;
+ E3: No variant information found for core 'GN' in cable '-W14'&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAVAR_Export_Test_5.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAVAR_Export_Test_5_QM861.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:06:12---</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2c930d3-bca1-46dd-837c-b8d635b0e168" testId="93c49a02-ff67-41e7-8005-3c1976dccfd9" testName="Designer_41654" computerName="8CAF2593C43D" duration="00:00:15.3431150" startTime="2023-10-10T12:05:34.0858557+02:00" endTime="2023-10-10T12:05:49.5283096+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2c930d3-bca1-46dd-837c-b8d635b0e168">
+      <Output>
+        <StdOut>[12:05:34]  Start Test: Designer_41654&#xD;
+[12:05:34]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\..\Databases\Standard\Configuration.mdb&#xD;
+[12:05:39]  Setting current database Standard&#xD;
+[12:05:40]  E3 OpenJob&#xD;
+[12:05:40]  Doing repaircheck...&#xD;
+[12:05:40]  Toolstart-Parameter: -b -d Export -CATIA -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\Designer_41654.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\CATIA_Designer_41654.log" -processid 53100&#xD;
+[12:05:40]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:05:49]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:05:49]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\2023-10-10--12-05-49_Designer_41654_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\2023-10-10--12-05-49_Designer_41654_ref_temp.xml&#xD;
+[12:05:49]  Test Designer_41654 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:05:49]  Test  3DRoutingBridge is successful!&#xD;
+[12:05:49]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'RD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'VT' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GYPK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'RDBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHGN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNGN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHYE' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'YEBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHGY' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GYBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHPK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'PKBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHRD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNRD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHBK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W5' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W5' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core '2' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '3' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '4' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '5' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '6' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core 'GNYE' for cable '-W8' is ignored due to open end.&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_1.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_1_QM861.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W1' is ignored due to open end.&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_2.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_2_QM861.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'RD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'VT' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GYPK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'RDBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHGN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNGN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHYE' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'YEBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHGY' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'GYBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHPK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'PKBN' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNBU' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHRD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BNRD' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'WHBK' for cable '-W4' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W5' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W5' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'GY' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'PK' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'BU' for cable '-W6' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W7' is ignored due to open end.&#xD;
+ E3: W - Core '2' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '3' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '4' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '5' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core '6' for cable '-W8' is ignored due to open end.&#xD;
+ E3: W - Core 'GNYE' for cable '-W8' is ignored due to open end.&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_3.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_3_QM861.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_4.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_4_QM861.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\TestData\Splice_Export.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\TestData\Splice_Export.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: W - Core '3' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GNYE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'WH' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'BN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'GN' for cable '-W1' is ignored due to open end.&#xD;
+ E3: W - Core 'YE' for cable '-W1' is ignored due to open end.&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\Designer_33104_CATIA.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\Results\CATIA_Designer_33104.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'Splice_Export' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33104\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\TestData\Problem_outerdiameter.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\TestData\Problem_outerdiameter.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: E - CCID:002027:  check_inherited_attvals( 2394 (0-2-0-23a) ): Attribute 'Krone_SAPStatusDescription'='' not found for SHEET_ITEM/32317 (0-32-0-893) - should be inherited from STRUCTURE_NODE_ITEM/32917 (0-5c-0-a11)&#xD;
+ E3: E - CCID:002027:  check_inherited_attvals( 2394 (0-2-0-23a) ): Attribute 'Krone_SAPStatusDescription'='' not found for SHEET_ITEM/32402 (0-32-0-8c7) - should be inherited from STRUCTURE_NODE_ITEM/32919 (0-5c-0-a12)&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002027:      2  TRY REPAIR 033: - (check_inherited_attvals( %s ): Attribute '%s'='%s' not found for %s - should be inherited from %s)&#xD;
+ E3: I - CCID:002578:      1                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      3 total messages with 2 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\Designer_39083.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\CATIA_Designer_39083.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'Problem_outerdiameter' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\TestData\Unterbrechung_Wagenerkennung_16.12.2022.e3s&#xD;
+ E3: I - Updating internal structures: 97 cycles up to version 2505...&#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\TestData\Unterbrechung_Wagenerkennung_16.12.2022.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: E - CCID:002501:  check_component( 'COMP_ITEM/15371 (0-12-0-12cd)' ): ValidComposite 'DISK25_03_010' found for all pins! Should be stored at the component.&#xD;
+[12:05:49]  #########Logger Error: curly brackets not escaped&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002501:      1  TRY REPAIR 046: - (check_component( '%s' ): ValidComposite '%s' found for all pins! Should be stored at the component.)&#xD;
+ E3: I - CCID:002502:      1  TRY REPAIR 046: - (check_component( '%s' ): ActiveComposite '%s' found for all pins! Should be stored at the component.)&#xD;
+ E3: I - CCID:002578:      1                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      3 total messages with 3 different check ids&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Starting CATIA V5 Routing export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini&#xD;
+ E3: File written to c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\Designer_41654.xml&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-41654\Results\CATIA_Designer_41654.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'Unterbrechung_Wagenerkennung_16.12.2022' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:05:49---</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa71d0d0-a8ed-4eee-9110-d689be852134" testId="6f2b19d5-c28b-4f77-95a1-cce1b03a3603" testName="Export_Test_4_QM861" computerName="8CAF2593C43D" duration="00:00:15.4357279" startTime="2023-10-10T12:04:47.3962227+02:00" endTime="2023-10-10T12:05:02.8236868+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa71d0d0-a8ed-4eee-9110-d689be852134">
+      <Output>
+        <StdOut>[12:04:47]  Start Test: Export_Test_4_QM861&#xD;
+[12:04:48]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\..\Databases\Standard\Configuration.mdb&#xD;
+[12:04:52]  Setting current database Standard&#xD;
+[12:04:53]  E3 OpenJob&#xD;
+[12:04:54]  Doing repaircheck...&#xD;
+[12:04:54]  Toolstart-Parameter: -b -d export -CATIA -selectionmode HARNESSES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\TestData\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIAV5Routing_Export_Test_4.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\CATIA_Export_Test_4_QM861.log" -processid 53100&#xD;
+[12:04:54]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:05:02]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:05:02]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-05-02_Export_Test_4_QM861_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\CATIA_Export_QM861\Results\2023-10-10--12-05-02_Export_Test_4_QM861_ref_temp.xml&#xD;
+[12:05:02]  Test Export_Test_4_QM861 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:05:02]  Test  3DRoutingBridge is successful!&#xD;
+[12:05:02]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bab4d748-c9b1-42bf-b3c2-1c631dd570e8" testId="41dcc22e-f9a5-46ce-9e9d-9811a9215aa5" testName="Designer_39083" computerName="8CAF2593C43D" duration="00:00:15.8892838" startTime="2023-10-10T12:05:18.2025762+02:00" endTime="2023-10-10T12:05:34.0858557+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bab4d748-c9b1-42bf-b3c2-1c631dd570e8">
+      <Output>
+        <StdOut>[12:05:18]  Start Test: Designer_39083&#xD;
+[12:05:18]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\..\Databases\Standard\Configuration.mdb&#xD;
+[12:05:23]  Setting current database Standard&#xD;
+[12:05:24]  E3 OpenJob&#xD;
+[12:05:24]  Doing repaircheck...&#xD;
+[12:05:25]  Toolstart-Parameter: -b -d Export -CATIA -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\CATIAV5Routing_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\Designer_39083.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\CATIA_Designer_39083.log" -processid 53100&#xD;
+[12:05:25]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:05:33]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:05:33]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\2023-10-10--12-05-33_Designer_39083_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-39083\Results\2023-10-10--12-05-33_Designer_39083_ref_temp.xml&#xD;
+[12:05:33]  Test Designer_39083 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:05:33]  Test  3DRoutingBridge is successful!&#xD;
+[12:05:33]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Designer_41654" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="93c49a02-ff67-41e7-8005-3c1976dccfd9">
+      <Execution id="d2c930d3-bca1-46dd-837c-b8d635b0e168" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Designer_41654" />
+    </UnitTest>
+    <UnitTest name="Export_Test_5_QM861" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="2d3d7919-7f09-43ed-9367-fe86a9ffc167">
+      <Execution id="c7d00c04-5b6f-41a9-a93d-f4956c325003" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIAVAR" name="Export_Test_5_QM861" />
+    </UnitTest>
+    <UnitTest name="Designer_39083" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="41dcc22e-f9a5-46ce-9e9d-9811a9215aa5">
+      <Execution id="bab4d748-c9b1-42bf-b3c2-1c631dd570e8" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Designer_39083" />
+    </UnitTest>
+    <UnitTest name="Export_Test_3_QM861" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="6d7dd684-1a23-4c10-8213-c458105b79cb">
+      <Execution id="ce69d1bc-c9ee-4129-83a1-69fc5f5046cd" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Export_Test_3_QM861" />
+    </UnitTest>
+    <UnitTest name="Export_Test_2_QM861" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="2562d4f8-8461-4eb0-a138-51c37baee6c7">
+      <Execution id="5ca8bd41-850e-47d2-87ea-43375d4e6760" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Export_Test_2_QM861" />
+    </UnitTest>
+    <UnitTest name="Export_Test_4_QM861" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="6f2b19d5-c28b-4f77-95a1-cce1b03a3603">
+      <Execution id="aa71d0d0-a8ed-4eee-9110-d689be852134" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Export_Test_4_QM861" />
+    </UnitTest>
+    <UnitTest name="Designer_33104" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="61514960-e14b-417a-a317-ffe798a78118">
+      <Execution id="55e74b39-4e3c-426d-8eec-7b24fab28043" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Designer_33104" />
+    </UnitTest>
+    <UnitTest name="Export_Test_1_QM861" storage="c:\77ecdd23-2421-4ec7-89e0-128c67d222f0\e3.bridgetest.dll" id="4f22af18-5e89-4741-8562-830ca6f2db8b">
+      <Execution id="aa8bc6ca-91a6-4e70-83e1-f4b32d8ee2cf" />
+      <TestMethod codeBase="C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+CATIA" name="Export_Test_1_QM861" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4f22af18-5e89-4741-8562-830ca6f2db8b" executionId="aa8bc6ca-91a6-4e70-83e1-f4b32d8ee2cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2562d4f8-8461-4eb0-a138-51c37baee6c7" executionId="5ca8bd41-850e-47d2-87ea-43375d4e6760" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61514960-e14b-417a-a317-ffe798a78118" executionId="55e74b39-4e3c-426d-8eec-7b24fab28043" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d7dd684-1a23-4c10-8213-c458105b79cb" executionId="ce69d1bc-c9ee-4129-83a1-69fc5f5046cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d3d7919-7f09-43ed-9367-fe86a9ffc167" executionId="c7d00c04-5b6f-41a9-a93d-f4956c325003" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93c49a02-ff67-41e7-8005-3c1976dccfd9" executionId="d2c930d3-bca1-46dd-837c-b8d635b0e168" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f2b19d5-c28b-4f77-95a1-cce1b03a3603" executionId="aa71d0d0-a8ed-4eee-9110-d689be852134" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41dcc22e-f9a5-46ce-9e9d-9811a9215aa5" executionId="bab4d748-c9b1-42bf-b3c2-1c631dd570e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\77ecdd23-2421-4ec7-89e0-128c67d222f0\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="8CAF2593C43D" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="8CAF2593C43D\ContainerAdministrator_8CAF2593C43D_2023-10-10.12_03_42.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

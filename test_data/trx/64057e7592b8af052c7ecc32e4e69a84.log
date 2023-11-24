@@ -1,0 +1,35 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31097,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31138,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31148,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31227,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_33104,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_35934,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_36546,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_36622,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_37322,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_38006,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_38477,E3.BridgeTest.RoutingBridge+HarnessExport.Designer_42554,E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_1_QM840,E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_2_QM840,E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_3_QM840,E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_4_QM840,E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_5_QM840,E3.BridgeTest.RoutingBridge+HarnessExport.Export_Optionen_QM840
+
+Starting test discovery, please wait...
+4.0973
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\8f0a8db0-a906-47ba-ac5c-f8a50dcb495c\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31097 [2 m 35 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31138 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31148 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_31227 [55 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_33104 [15 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_35934 [22 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_36546 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_36622 [22 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_37322 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_38006 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_38477 [44 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Designer_42554 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_1_QM840 [2 m 29 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_2_QM840 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_3_QM840 [2 m 50 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_4_QM840 [4 m 43 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_KundenDB_Test_5_QM840 [18 s]
+  Passed E3.BridgeTest.RoutingBridge+HarnessExport.Export_Optionen_QM840 [16 s]
+Results File: C:\8f0a8db0-a906-47ba-ac5c-f8a50dcb495c\TestResults\ContainerAdministrator_774BBDF454A4_2023-10-10_12_11_43.trx
+
+Attachments:
+  C:\8f0a8db0-a906-47ba-ac5c-f8a50dcb495c\TestResults\207de66c-c5eb-49bb-acf1-db2cc736ff4e\ContainerAdministrator_774BBDF454A4_2023-10-10.12_08_54.coverage
+Test Run Successful.
+Total tests: 18
+     Passed: 18
+ Total time: 18.1477 Minutes

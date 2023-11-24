@@ -1,0 +1,47 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+KBLImport.Designer_41944,E3.BridgeTest.RoutingBridge+KBLImport.KBL_0000432209_AS_HV_WIRING_EE_UNIT,E3.BridgeTest.RoutingBridge+KBLImport.KBL_10_400_000651_A1_01,E3.BridgeTest.RoutingBridge+KBLImport.KBL_1D001826_CREO6_ASM,E3.BridgeTest.RoutingBridge+KBLImport.KBL_1D001826_CREO7_ASM,E3.BridgeTest.RoutingBridge+KBLImport.KBL_201106_CREO_SPLCE_EXMPL_F_ZUKEN_ASM,E3.BridgeTest.RoutingBridge+KBLImport.KBL_8893661179_CM1E_POWERPACK_HARNESS_HCA,E3.BridgeTest.RoutingBridge+KBLImport.KBL_94096545_ASM,E3.BridgeTest.RoutingBridge+KBLImport.KBL_A2135405416__________0030_3__a213_540_54_16_028_20161213_hcv_document,E3.BridgeTest.RoutingBridge+KBLImport.KBL_ARRHCA223540F012_0001_05___MITTE_RBA,E3.BridgeTest.RoutingBridge+KBLImport.KBL_BMW_178_MZ_ZB_LTG_STOSSFAENGER_VORNE_M_SP_G07_PVL,E3.BridgeTest.RoutingBridge+KBLImport.KBL_BMW_77967_MZ_KAROSSERIE_G07_LL_PVL,E3.BridgeTest.RoutingBridge+KBLImport.KBL_BMW_8726511_MZ_Karosserie_LL_G01_08_2019_Produktionsfreigabe_a_1_a_KAR_Negativ,E3.BridgeTest.RoutingBridge+KBLImport.KBL_CABLING_CREO7_ASM,E3.BridgeTest.RoutingBridge+KBLImport.KBL_document,E3.BridgeTest.RoutingBridge+KBLImport.KBL_FL3T_14A005_CA,E3.BridgeTest.RoutingBridge+KBLImport.KBL_FL3T_SAMPLE_ASM2_1,E3.BridgeTest.RoutingBridge+KBLImport.KBL_FNA4164913_1,E3.BridgeTest.RoutingBridge+KBLImport.KBL_FNA4164913_1_conf2,E3.BridgeTest.RoutingBridge+KBLImport.KBL_FourthSample,E3.BridgeTest.RoutingBridge+KBLImport.KBL_highTest,E3.BridgeTest.RoutingBridge+KBLImport.KBL_LX6X_14401_ERA_1,E3.BridgeTest.RoutingBridge+KBLImport.KBL_MCAD_KP7_Testdaten_UAT3_31_01_2022_Thy_1,E3.BridgeTest.RoutingBridge+KBLImport.KBL_SampleProductA_1,E3.BridgeTest.RoutingBridge+KBLImport.KBL_SuperSample,E3.BridgeTest.RoutingBridge+KBLImport.KBL_TEST_SPLICE,E3.BridgeTest.RoutingBridge+KBLImport.KBL_TEST_AS_LV_WIRING_HARNESS_B,E3.BridgeTest.RoutingBridge+KBLImport.KBL_WIRE_HARN_ASSM_FLOOR_STBD_MK1_SAM1_1
+
+Starting test discovery, please wait...
+A total of 28 tests were discovered but some tests do not match the specified selection criteria(E3.BridgeTest.RoutingBridge+KBLImport.KBL_FNA4164913_1_conf2). Use right value(s) and try again.
+4.0813
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\fe4e93ab-f059-47bd-be8f-ce90468f279e\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.Designer_41944 [31 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_0000432209_AS_HV_WIRING_EE_UNIT [42 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_10_400_000651_A1_01 [27 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_1D001826_CREO6_ASM [1 m 13 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_1D001826_CREO7_ASM [1 m 12 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_201106_CREO_SPLCE_EXMPL_F_ZUKEN_ASM [20 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_8893661179_CM1E_POWERPACK_HARNESS_HCA [59 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_94096545_ASM [4 m 11 s]
+  Skipped KBL_A2135405416__________0030_3__a213_540_54_16_028_20161213_hcv_document
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_ARRHCA223540F012_0001_05___MITTE_RBA [1 m 3 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_BMW_178_MZ_ZB_LTG_STOSSFAENGER_VORNE_M_SP_G07_PVL [47 s]
+  Skipped KBL_BMW_77967_MZ_KAROSSERIE_G07_LL_PVL
+  Skipped KBL_BMW_8726511_MZ_Karosserie_LL_G01_08_2019_Produktionsfreigabe_a_1_a_KAR_Negativ
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_CABLING_CREO7_ASM [32 s]
+  Skipped KBL_document
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_FL3T_14A005_CA [1 m 50 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_FL3T_SAMPLE_ASM2_1 [24 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_FNA4164913_1 [2 m 13 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_FNA4164913_1_conf2 [2 m 41 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_FourthSample [21 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_highTest [50 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_LX6X_14401_ERA_1 [1 m 39 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_MCAD_KP7_Testdaten_UAT3_31_01_2022_Thy_1 [21 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_SampleProductA_1 [1 m 10 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_SuperSample [29 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_TEST_SPLICE [18 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_TEST_AS_LV_WIRING_HARNESS_B [20 s]
+  Passed E3.BridgeTest.RoutingBridge+KBLImport.KBL_WIRE_HARN_ASSM_FLOOR_STBD_MK1_SAM1_1 [1 m 48 s]
+Results File: C:\fe4e93ab-f059-47bd-be8f-ce90468f279e\TestResults\ContainerAdministrator_F27715BE3A7B_2023-10-10_12_00_30.trx
+
+Attachments:
+  C:\fe4e93ab-f059-47bd-be8f-ce90468f279e\TestResults\0f8a5f5f-7a1c-4bda-aa77-7455d82a6a07\ContainerAdministrator_F27715BE3A7B_2023-10-10.11_59_46.coverage
+Test Run Successful.
+Total tests: 28
+     Passed: 24
+    Skipped: 4
+ Total time: 26.7802 Minutes

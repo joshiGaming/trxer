@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a27a95ab-b936-4f3b-8f1d-000070281c6c" name="ContainerAdministrator@0B88B1401328 2023-10-10 12:01:43" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:01:43.5692403+02:00" queuing="2023-10-10T12:01:43.5692403+02:00" start="2023-10-10T12:01:10.6777845+02:00" finish="2023-10-10T12:02:32.3290695+02:00" />
+  <TestSettings name="default" id="1d4864b6-763c-4a5f-9cef-b204f9a34205">
+    <Deployment runDeploymentRoot="614441c7165cbaa8fe3ca68d124de5d9" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="72097135-fd27-4ad9-b9a6-254330ad7bab" testId="78e0316e-82aa-470e-98c4-ac60b013d651" testName="Designer_33327" computerName="0B88B1401328" duration="00:00:15.6905742" startTime="2023-10-10T12:02:00.5268683+02:00" endTime="2023-10-10T12:02:16.2141430+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72097135-fd27-4ad9-b9a6-254330ad7bab">
+      <Output>
+        <StdOut>[12:02:00]  Start Test: Designer_33327&#xD;
+[12:02:01]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\..\Databases\Standard\Configuration.mdb&#xD;
+[12:02:05]  Setting current database Standard&#xD;
+[12:02:06]  E3 OpenJob&#xD;
+[12:02:06]  Doing repaircheck...&#xD;
+[12:02:07]  Toolstart-Parameter: -b -d Export -PROE -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\ProE_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\ProE_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\Designer_33327.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\PROE_Designer_33327.log" -processid 45604&#xD;
+[12:02:07]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:02:15]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:02:16]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\2023-10-10--12-02-15_Designer_33327_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\2023-10-10--12-02-15_Designer_33327_ref_temp.xml&#xD;
+[12:02:16]  Test Designer_33327 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:02:16]  Test  3DRoutingBridge is successful!&#xD;
+[12:02:16]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="214e3469-b50d-463a-a4e5-30ceae1ec36b" testId="1328156d-0847-4166-aac9-6ecada07a12b" testName="Designer_31035" computerName="0B88B1401328" duration="00:00:17.4592781" startTime="2023-10-10T12:01:15.5454816+02:00" endTime="2023-10-10T12:01:43.4751311+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="214e3469-b50d-463a-a4e5-30ceae1ec36b">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:01:16 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:00.9843750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:01:16 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:01.9531250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:01:16 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:02.8906250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:01:16 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:01:25---
+&#xD;
+[12:01:25]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 45604&#xD;
+[12:01:26]  Start Test: Designer_31035&#xD;
+[12:01:26]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\..\Databases\Standard\Configuration.mdb&#xD;
+[12:01:31]  Setting current database Standard&#xD;
+[12:01:31]  E3 OpenJob&#xD;
+[12:01:32]  Doing repaircheck...&#xD;
+[12:01:32]  Toolstart-Parameter: -b -d Export -PROE -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ProE_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ProE_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\Designer_31035.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\PROE_Designer_31035.log" -processid 45604&#xD;
+[12:01:32]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:01:43]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:01:43]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\2023-10-10--12-01-43_Designer_31035_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\2023-10-10--12-01-43_Designer_31035_ref_temp.xml&#xD;
+[12:01:43]  Test Designer_31035 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:01:43]  Test  3DRoutingBridge is successful!&#xD;
+[12:01:43]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="03fc4810-28d0-4d63-a3d2-a3fc8bc0d423" testId="a617d68b-d414-41f8-9715-fb1581b58aa4" testName="Designer_32298" computerName="0B88B1401328" duration="00:00:16.9992653" startTime="2023-10-10T12:01:43.5282589+02:00" endTime="2023-10-10T12:02:00.5268683+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03fc4810-28d0-4d63-a3d2-a3fc8bc0d423">
+      <Output>
+        <StdOut>[12:01:43]  Start Test: Designer_32298&#xD;
+[12:01:44]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\..\Databases\Standard\Configuration.mdb&#xD;
+[12:01:49]  Setting current database Standard&#xD;
+[12:01:49]  E3 OpenJob&#xD;
+[12:01:50]  Doing repaircheck...&#xD;
+[12:01:51]  Toolstart-Parameter: -b -d Export -PROE -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\ProE_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\ProE_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\Designer_32298.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\PROE_Designer_32298.log" -processid 45604&#xD;
+[12:01:51]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:02:00]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:02:00]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\2023-10-10--12-02-00_Designer_32298_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\2023-10-10--12-02-00_Designer_32298_ref_temp.xml&#xD;
+[12:02:00]  Test Designer_32298 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:02:00]  Test  3DRoutingBridge is successful!&#xD;
+[12:02:00]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="985d7b97-30b4-4c7c-98b1-2aa4674bbc1d" testId="ef30eb15-8264-4dbe-984c-600590f2ef7f" testName="Designer_33488" computerName="0B88B1401328" duration="00:00:15.4834000" startTime="2023-10-10T12:02:16.2141430+02:00" endTime="2023-10-10T12:02:31.7987591+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="985d7b97-30b4-4c7c-98b1-2aa4674bbc1d">
+      <Output>
+        <StdOut>[12:02:16]  Start Test: Designer_33488&#xD;
+[12:02:17]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\..\Databases\Standard\Configuration.mdb&#xD;
+[12:02:21]  Setting current database Standard&#xD;
+[12:02:22]  E3 OpenJob&#xD;
+[12:02:22]  Doing repaircheck...&#xD;
+[12:02:22]  Toolstart-Parameter: -b -d Export -PROE -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\TestData\ProE_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\ProE_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\Designer_33488.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\PROE_Designer_33488.log" -processid 45604&#xD;
+[12:02:22]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:02:31]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:02:31]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\2023-10-10--12-02-31_Designer_33488_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\2023-10-10--12-02-31_Designer_33488_ref_temp.xml&#xD;
+[12:02:31]  Test Designer_33488 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:02:31]  Test  3DRoutingBridge is successful!&#xD;
+[12:02:31]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ECAD-Port_ZDE5622862.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ECAD-Port_ZDE5622862.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: Starting ProE export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ProE_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\ProE_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\Designer_31035.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\Results\PROE_Designer_31035.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'ECAD-Port_ZDE5622862' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-31035\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\start.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\start.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: E - CCID:001759:  check_variants( VARIANT_ITEM/5792 (0-3e-0-3f1) ): Variant/Option '_VARIANTEX_ROOT_' is a doubled Root Variant with VARIANTFLG_READ_FROM_DF flag&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:001759:      1  TRY REPAIR 020: - (check_variants( %s ): Variant/Option '%s' is a doubled Root Variant with VARIANTFLG_READ_FROM_DF flag)&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      1 total messages with 1 different check ids&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\ProE_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- EntryPort&#xD;
+ E3:     	- PinGrouping&#xD;
+ E3:     	- Herstellernummer&#xD;
+ E3:     	- KTM_Teilenummer&#xD;
+ E3:     	- SignalName&#xD;
+ E3:     	- Herstellernummer&#xD;
+ E3:     	- KTM_Teilenummer&#xD;
+ E3:     	- ColorCode&#xD;
+ E3:     	- Density&#xD;
+ E3:     	- Mass&#xD;
+ E3:     	- MassUnit&#xD;
+ E3:     	- Herstellernummer&#xD;
+ E3:     	- Display-Name&#xD;
+ E3:     	- Type&#xD;
+ E3:     	- ColorCode&#xD;
+ E3:     	- Density&#xD;
+ E3:     	- Mass&#xD;
+ E3:     	- MassUnit&#xD;
+ E3: Starting ProE export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\ProE_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\ProE_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\Designer_32298.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\Results\PROE_Designer_32298.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'start' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-32298\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\cable_fabriqués_variantes_NEWATTRIBUTE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\cable_fabriqués_variantes_NEWATTRIBUTE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      1                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      1 total messages with 1 different check ids&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\ProE_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- max_allowed_length&#xD;
+ E3:     	- PIERRE_MAX_ALLOWED_LENGTH&#xD;
+ E3:     	- Signalname&#xD;
+ E3:     	- Signalname&#xD;
+ E3: Starting ProE export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\ProE_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\ProE_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\Designer_33327.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\Results\PROE_Designer_33327.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'cable_fabriqués_variantes_NEWATTRIBUTE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33327\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\TestData\Splice_Export_THORSTEN.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\TestData\Splice_Export_THORSTEN.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: Starting ProE export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\ProE_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\TestData\ProE_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\Designer_33488.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-33488\Results\PROE_Designer_33488.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'Splice_Export_THORSTEN' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:02:31---</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Designer_33488" storage="c:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\e3.bridgetest.dll" id="ef30eb15-8264-4dbe-984c-600590f2ef7f">
+      <Execution id="985d7b97-30b4-4c7c-98b1-2aa4674bbc1d" />
+      <TestMethod codeBase="C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+PROE" name="Designer_33488" />
+    </UnitTest>
+    <UnitTest name="Designer_31035" storage="c:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\e3.bridgetest.dll" id="1328156d-0847-4166-aac9-6ecada07a12b">
+      <Execution id="214e3469-b50d-463a-a4e5-30ceae1ec36b" />
+      <TestMethod codeBase="C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+PROE" name="Designer_31035" />
+    </UnitTest>
+    <UnitTest name="Designer_33327" storage="c:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\e3.bridgetest.dll" id="78e0316e-82aa-470e-98c4-ac60b013d651">
+      <Execution id="72097135-fd27-4ad9-b9a6-254330ad7bab" />
+      <TestMethod codeBase="C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+PROE" name="Designer_33327" />
+    </UnitTest>
+    <UnitTest name="Designer_32298" storage="c:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\e3.bridgetest.dll" id="a617d68b-d414-41f8-9715-fb1581b58aa4">
+      <Execution id="03fc4810-28d0-4d63-a3d2-a3fc8bc0d423" />
+      <TestMethod codeBase="C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+PROE" name="Designer_32298" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="78e0316e-82aa-470e-98c4-ac60b013d651" executionId="72097135-fd27-4ad9-b9a6-254330ad7bab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1328156d-0847-4166-aac9-6ecada07a12b" executionId="214e3469-b50d-463a-a4e5-30ceae1ec36b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a617d68b-d414-41f8-9715-fb1581b58aa4" executionId="03fc4810-28d0-4d63-a3d2-a3fc8bc0d423" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef30eb15-8264-4dbe-984c-600590f2ef7f" executionId="985d7b97-30b4-4c7c-98b1-2aa4674bbc1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\e2bbe2ce-8327-46d6-bcb9-6830f74a7585\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="0B88B1401328" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="0B88B1401328\ContainerAdministrator_0B88B1401328_2023-10-10.12_01_12.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

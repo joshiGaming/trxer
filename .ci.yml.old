@@ -1,0 +1,13 @@
+environment:
+  docker_image: ulm-dev.zuken.com/ci-build-image:VS2022
+  matrix: 
+  - job_name: make
+    build_sh: >-
+     cd XmlMerge;
+     dotnet publish -r win-x64 -p:PublishSingleFile=false --self-contained false --output ./build/;
+    test_sh: >-
+      cd XmlMerge;
+      ./build/XmlMerge.exe ../test_data/out ../test_data/trx;
+      cd -;      
+      gen-report ./test_data/out/ ./new/;            
+    artifacts_new: ./new/;

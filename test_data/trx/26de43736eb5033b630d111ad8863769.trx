@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0030dc49-3af9-47a1-8287-7a043a1392a3" name="ContainerAdministrator@D7BE845ABE52 2023-10-10 12:13:47" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:13:47.4480268+02:00" queuing="2023-10-10T12:13:47.4480268+02:00" start="2023-10-10T12:13:14.2167655+02:00" finish="2023-10-10T12:14:56.4347322+02:00" />
+  <TestSettings name="default" id="35fc5f79-d6ff-47d0-aee5-e19ba5a66310">
+    <Deployment runDeploymentRoot="26de43736eb5033b630d111ad8863769" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="5d25ff34-357b-4eb6-be48-6179c0b2a468" testId="e8a7afe0-5546-444d-abb4-76c50c7480de" testName="Export_Test_1_QM866" computerName="D7BE845ABE52" duration="00:00:17.3034408" startTime="2023-10-10T12:13:47.4016298+02:00" endTime="2023-10-10T12:14:04.7093607+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d25ff34-357b-4eb6-be48-6179c0b2a468">
+      <Output>
+        <StdOut>[12:13:47]  Start Test: Export_Test_1_QM866&#xD;
+[12:13:48]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Configuration.mdb&#xD;
+[12:13:52]  Setting current database Standard&#xD;
+[12:13:53]  E3 OpenJob&#xD;
+[12:13:54]  Doing repaircheck...&#xD;
+[12:13:54]  Toolstart-Parameter: -b -d export -SOLIDWORKS -selectionmode HARNESS_ASSEMBLIES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SolidWorks_Export_Test_1.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SOLIDWORKS_Export_Test_1_QM866.log" -processid 14640&#xD;
+[12:13:54]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:04]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:04]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-04_Export_Test_1_QM866_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-04_Export_Test_1_QM866_ref_temp.xml&#xD;
+[12:14:04]  Test Export_Test_1_QM866 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:04]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:04]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9599767-165b-4215-a26b-35009d51e174" testId="956cfd3d-b675-4584-aa45-0a7db2cce354" testName="Designer_30766" computerName="D7BE845ABE52" duration="00:00:18.0043739" startTime="2023-10-10T12:13:19.0538534+02:00" endTime="2023-10-10T12:13:47.3536302+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9599767-165b-4215-a26b-35009d51e174">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0625000&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:19 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:01.0781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:19 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:02.0312500&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:19 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:02.9843750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:13:19 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:13:29---
+&#xD;
+[12:13:29]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 14640&#xD;
+[12:13:29]  Start Test: Designer_30766&#xD;
+[12:13:30]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\..\Databases\Standard\Configuration.mdb&#xD;
+[12:13:34]  Setting current database Standard&#xD;
+[12:13:35]  E3 OpenJob&#xD;
+[12:13:36]  Doing repaircheck...&#xD;
+[12:13:36]  Toolstart-Parameter: -b -d Export -SOLIDWORKS -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\SolidWorks_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\SolidWorks_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\Results\Designer_30766.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\Results\SOLIDWORKS_Designer_30766.log" -processid 14640&#xD;
+[12:13:36]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:13:46]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:13:47]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\Results\2023-10-10--12-13-46_Designer_30766_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\Results\2023-10-10--12-13-46_Designer_30766_ref_temp.xml&#xD;
+[12:13:47]  Test Designer_30766 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:13:47]  Test  3DRoutingBridge is successful!&#xD;
+[12:13:47]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6a1beb3-d45a-4e47-898d-92951fa386af" testId="35c63f60-5104-4f5a-b3f3-a31acbd96ddf" testName="Export_Test_3_QM866" computerName="D7BE845ABE52" duration="00:00:17.0485402" startTime="2023-10-10T12:14:22.6259744+02:00" endTime="2023-10-10T12:14:39.6752797+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6a1beb3-d45a-4e47-898d-92951fa386af">
+      <Output>
+        <StdOut>[12:14:22]  Start Test: Export_Test_3_QM866&#xD;
+[12:14:23]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:27]  Setting current database Standard&#xD;
+[12:14:28]  E3 OpenJob&#xD;
+[12:14:29]  Doing repaircheck...&#xD;
+[12:14:29]  Toolstart-Parameter: -b -d export -SOLIDWORKS -selectionmode CABLES_AND_WIRES_GROUPED_BY_ATTRIBUTE -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SolidWorks_Export_Test_3.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SOLIDWORKS_Export_Test_3_QM866.log" -processid 14640&#xD;
+[12:14:29]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:39]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:39]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-39_Export_Test_3_QM866_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-39_Export_Test_3_QM866_ref_temp.xml&#xD;
+[12:14:39]  Test Export_Test_3_QM866 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:39]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:39]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a6be152-746f-4151-a2fa-47877820e4a4" testId="8eb20157-3f8d-4909-ac9f-27d73e8747bc" testName="Export_Test_4_QM866" computerName="D7BE845ABE52" duration="00:00:16.1600055" startTime="2023-10-10T12:14:39.6762790+02:00" endTime="2023-10-10T12:14:55.9184165+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a6be152-746f-4151-a2fa-47877820e4a4">
+      <Output>
+        <StdOut>[12:14:39]  Start Test: Export_Test_4_QM866&#xD;
+[12:14:40]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:44]  Setting current database Standard&#xD;
+[12:14:45]  E3 OpenJob&#xD;
+[12:14:46]  Doing repaircheck...&#xD;
+[12:14:46]  Toolstart-Parameter: -b -d export -SOLIDWORKS -selectionmode HARNESSES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SolidWorks_Export_Test_4.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SOLIDWORKS_Export_Test_4_QM866.log" -processid 14640&#xD;
+[12:14:46]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:55]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:55]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-55_Export_Test_4_QM866_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-55_Export_Test_4_QM866_ref_temp.xml&#xD;
+[12:14:55]  Test Export_Test_4_QM866 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:55]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:55]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\Mapping.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\Mapping.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\SolidWorks_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- Comment&#xD;
+ E3:     	- RoutedLength&#xD;
+ E3:     	- Width&#xD;
+ E3:     	- MCAD&#xD;
+ E3:     	- MCAD&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\SolidWorks_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\bin\Release\x64\Config\SolidWorks_Export_Control.ini&#xD;
+ E3: SolidWorks export routing started...&#xD;
+ E3: SolidWorks export routing done.&#xD;
+ E3: I - Closing project 'Mapping' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\Designer-30766\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini&#xD;
+ E3: SolidWorks export routing started...&#xD;
+ E3: SolidWorks export routing done.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini&#xD;
+ E3: SolidWorks export routing started...&#xD;
+ E3: SolidWorks export routing done.&#xD;
+ E3: I - Closing project 'BRIDGE_Test2' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini&#xD;
+ E3: SolidWorks export routing started...&#xD;
+ E3: SolidWorks export routing done.&#xD;
+ E3: I - Closing project 'BRIDGE_Test2' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\BRIDGE_Test2.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini&#xD;
+ E3: SolidWorks export routing started...&#xD;
+ E3: SolidWorks export routing done.&#xD;
+ E3: I - Closing project 'BRIDGE_Test2' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:14:55---</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20515a37-5360-4288-8664-b046ac6a5c20" testId="cbae23bf-30b9-40d8-8c3b-ae20fec0058a" testName="Export_Test_2_QM866" computerName="D7BE845ABE52" duration="00:00:17.9079996" startTime="2023-10-10T12:14:04.7093607+02:00" endTime="2023-10-10T12:14:22.6239754+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20515a37-5360-4288-8664-b046ac6a5c20">
+      <Output>
+        <StdOut>[12:14:04]  Start Test: Export_Test_2_QM866&#xD;
+[12:14:05]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\..\Databases\Standard\Configuration.mdb&#xD;
+[12:14:10]  Setting current database Standard&#xD;
+[12:14:11]  E3 OpenJob&#xD;
+[12:14:11]  Doing repaircheck...&#xD;
+[12:14:12]  Toolstart-Parameter: -b -d export -SOLIDWORKS -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\TestData\SolidWorks_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SolidWorks_Export_Test_2.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\SOLIDWORKS_Export_Test_2_QM866.log" -processid 14640&#xD;
+[12:14:12]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:14:22]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:14:22]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-22_Export_Test_2_QM866_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\SOLIDWORKS_Export_QM866\Results\2023-10-10--12-14-22_Export_Test_2_QM866_ref_temp.xml&#xD;
+[12:14:22]  Test Export_Test_2_QM866 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:14:22]  Test  3DRoutingBridge is successful!&#xD;
+[12:14:22]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Export_Test_4_QM866" storage="c:\f5f7de40-caf4-4b16-a616-92b6cc69c594\e3.bridgetest.dll" id="8eb20157-3f8d-4909-ac9f-27d73e8747bc">
+      <Execution id="1a6be152-746f-4151-a2fa-47877820e4a4" />
+      <TestMethod codeBase="C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+SOLIDWORKS" name="Export_Test_4_QM866" />
+    </UnitTest>
+    <UnitTest name="Designer_30766" storage="c:\f5f7de40-caf4-4b16-a616-92b6cc69c594\e3.bridgetest.dll" id="956cfd3d-b675-4584-aa45-0a7db2cce354">
+      <Execution id="e9599767-165b-4215-a26b-35009d51e174" />
+      <TestMethod codeBase="C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+SOLIDWORKS" name="Designer_30766" />
+    </UnitTest>
+    <UnitTest name="Export_Test_3_QM866" storage="c:\f5f7de40-caf4-4b16-a616-92b6cc69c594\e3.bridgetest.dll" id="35c63f60-5104-4f5a-b3f3-a31acbd96ddf">
+      <Execution id="c6a1beb3-d45a-4e47-898d-92951fa386af" />
+      <TestMethod codeBase="C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+SOLIDWORKS" name="Export_Test_3_QM866" />
+    </UnitTest>
+    <UnitTest name="Export_Test_1_QM866" storage="c:\f5f7de40-caf4-4b16-a616-92b6cc69c594\e3.bridgetest.dll" id="e8a7afe0-5546-444d-abb4-76c50c7480de">
+      <Execution id="5d25ff34-357b-4eb6-be48-6179c0b2a468" />
+      <TestMethod codeBase="C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+SOLIDWORKS" name="Export_Test_1_QM866" />
+    </UnitTest>
+    <UnitTest name="Export_Test_2_QM866" storage="c:\f5f7de40-caf4-4b16-a616-92b6cc69c594\e3.bridgetest.dll" id="cbae23bf-30b9-40d8-8c3b-ae20fec0058a">
+      <Execution id="20515a37-5360-4288-8664-b046ac6a5c20" />
+      <TestMethod codeBase="C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+SOLIDWORKS" name="Export_Test_2_QM866" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e8a7afe0-5546-444d-abb4-76c50c7480de" executionId="5d25ff34-357b-4eb6-be48-6179c0b2a468" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="956cfd3d-b675-4584-aa45-0a7db2cce354" executionId="e9599767-165b-4215-a26b-35009d51e174" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35c63f60-5104-4f5a-b3f3-a31acbd96ddf" executionId="c6a1beb3-d45a-4e47-898d-92951fa386af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eb20157-3f8d-4909-ac9f-27d73e8747bc" executionId="1a6be152-746f-4151-a2fa-47877820e4a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbae23bf-30b9-40d8-8c3b-ae20fec0058a" executionId="20515a37-5360-4288-8664-b046ac6a5c20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\f5f7de40-caf4-4b16-a616-92b6cc69c594\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="D7BE845ABE52" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="D7BE845ABE52\ContainerAdministrator_D7BE845ABE52_2023-10-10.12_13_15.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

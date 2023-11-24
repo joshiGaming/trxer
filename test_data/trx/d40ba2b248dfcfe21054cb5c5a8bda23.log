@@ -1,0 +1,21 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_1_QM867,E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_2_QM867,E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_3_QM867,E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_4_QM867
+
+Starting test discovery, please wait...
+4.1266
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_1_QM867 [17 s]
+  Passed E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_2_QM867 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_3_QM867 [16 s]
+  Passed E3.BridgeTest.RoutingBridge+INVENTOR.Export_Test_4_QM867 [15 s]
+Results File: C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\TestResults\ContainerAdministrator_CD9508BA12D3_2023-10-10_12_11_16.trx
+
+Attachments:
+  C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\TestResults\e6c2d286-4671-4d0d-9da6-18ec2e75fc79\ContainerAdministrator_CD9508BA12D3_2023-10-10.12_10_45.coverage
+Test Run Successful.
+Total tests: 4
+     Passed: 4
+ Total time: 1.3166 Minutes

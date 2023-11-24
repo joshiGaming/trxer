@@ -1,0 +1,18 @@
+Microsoft (R) Test Execution Command Line Tool Version 17.2.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+vstest.console.exe --Tests:E3.BridgeTest.RoutingBridge+KBLLongImport_1.KBL_document2_RL_2D
+
+Starting test discovery, please wait...
+12.0903
+A total of 1 test files matched the specified pattern.
+MSTest Executor: Test Parallelization enabled for C:\34da2f4f-6f47-45b3-afd0-5ff87ea0d5e2\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).
+  Passed E3.BridgeTest.RoutingBridge+KBLLongImport_1.KBL_document2_RL_2D [16 m 49 s]
+Results File: C:\34da2f4f-6f47-45b3-afd0-5ff87ea0d5e2\TestResults\ContainerAdministrator_F41EF5681340_2023-10-10_12_16_41.trx
+
+Attachments:
+  C:\34da2f4f-6f47-45b3-afd0-5ff87ea0d5e2\TestResults\8a0283db-c1c9-46ed-a7d6-47131cb741ae\ContainerAdministrator_F41EF5681340_2023-10-10.11_59_38.coverage
+Test Run Successful.
+Total tests: 1
+     Passed: 1
+ Total time: 17.0491 Minutes

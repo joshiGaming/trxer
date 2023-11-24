@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9dca4987-db94-445e-8270-82895abb45ca" name="ContainerAdministrator@8E9AA52A30C4 2023-10-10 12:11:26" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:11:26.6830717+02:00" queuing="2023-10-10T12:11:26.6830717+02:00" start="2023-10-10T12:10:52.5356449+02:00" finish="2023-10-10T12:11:45.0835503+02:00" />
+  <TestSettings name="default" id="f984a9d0-ab42-4bad-a972-b2a90182e048">
+    <Deployment runDeploymentRoot="9263ae37d479e4857c1c86afea692a60" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9111b943-f654-4fe2-a4f7-270d55382520" testId="70271a98-b7e4-46b2-83cd-d5e28f79778e" testName="KBL_1" computerName="8E9AA52A30C4" duration="00:00:19.0063538" startTime="2023-10-10T12:10:57.4071725+02:00" endTime="2023-10-10T12:11:26.6059722+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9111b943-f654-4fe2-a4f7-270d55382520">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:57 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:01.1093750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:57 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:02.0781250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:57 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:03.0312500&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:57 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:11:07---
+&#xD;
+[12:11:07]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 33912&#xD;
+[12:11:07]  Start Test: KBL_1&#xD;
+[12:11:08]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:12]  Setting current database Standard&#xD;
+[12:11:13]  E3 OpenJob&#xD;
+[12:11:13]  Doing repaircheck...&#xD;
+[12:11:14]  Toolstart-Parameter: -b -d Export -KblExport -selectionmode E3_PRESELECTED_FORMBOARD_SHEETS -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1\Kbl_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1\Kbl_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_1.kbl" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\KblExport_KBL_1.log" -processid 33912&#xD;
+[12:11:14]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:11:26]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:11:26]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\2023-10-10--12-11-26_KBL_1_temp.kbl to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\2023-10-10--12-11-26_KBL_1_ref_temp.kbl&#xD;
+[12:11:26]  Test KBL_1 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:11:26]  Test  3DRoutingBridge is successful!&#xD;
+[12:11:26]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46e01200-e837-46a0-b43d-0e6d322f5405" testId="76e81758-3dea-47be-a4de-7364ed7af2cd" testName="KBL_DynamicCableOption" computerName="8E9AA52A30C4" duration="00:00:17.8181487" startTime="2023-10-10T12:11:26.6512558+02:00" endTime="2023-10-10T12:11:44.5724204+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46e01200-e837-46a0-b43d-0e6d322f5405">
+      <Output>
+        <StdOut>[12:11:26]  Start Test: KBL_DynamicCableOption&#xD;
+[12:11:27]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:31]  Setting current database Standard&#xD;
+[12:11:32]  E3 OpenJob&#xD;
+[12:11:33]  Doing repaircheck...&#xD;
+[12:11:33]  Toolstart-Parameter: -b -d Export -KblExport -selectionmode E3_PRESELECTED_FORMBOARD_SHEETS -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption\Kbl_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption\Kbl_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_DynamicCableOption.kbl" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\KblExport_KBL_DynamicCableOption.log" -processid 33912&#xD;
+[12:11:33]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:11:44]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:11:44]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\2023-10-10--12-11-44_KBL_DynamicCableOption_temp.kbl to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\2023-10-10--12-11-44_KBL_DynamicCableOption_ref_temp.kbl&#xD;
+[12:11:44]  Test KBL_DynamicCableOption for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:11:44]  Test  3DRoutingBridge is successful!&#xD;
+[12:11:44]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL.e3s&#xD;
+ E3: I - Updating internal structures: 97 cycles up to version 2505...&#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1\Kbl_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- HA_Color1&#xD;
+ E3:     	- HA_Color2&#xD;
+ E3:     	- HA_ConductorWeight&#xD;
+ E3:     	- HA_CSA&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_BaseMaterial&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_InnerDiameter&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_MaxDiameter&#xD;
+ E3:     	- HA_MinDiameter&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Type&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_Gender&#xD;
+ E3:     	- HA_Height&#xD;
+ E3:     	- HA_IsSealable&#xD;
+ E3:     	- HA_Length&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_NofLocks&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Width&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Color1&#xD;
+ E3:     	- HA_Color2&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_ConductorWeight&#xD;
+ E3:     	- HA_CSA&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_Partnumber&#xD;
+ E3:     	- HA_Version&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_CSAHigh&#xD;
+ E3:     	- HA_Length&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_Plating&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3: Starting KBL Harness (Formboard) export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1\Kbl_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_1\Kbl_Export_Control.ini&#xD;
+ E3: Starting export KBL...c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_1.kbl&#xD;
+ E3: W - Single pin placement of connector '-X3' is not supported! Connector ignored.&#xD;
+ E3: Kbl file saved as: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_1.kbl&#xD;
+ E3: Kbl export finished.&#xD;
+ E3: I - Closing project 'KBL' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL.e3s&#xD;
+ E3: I - Updating internal structures: 97 cycles up to version 2505...&#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: I - No known issues found&#xD;
+ E3: E - Unknown attributes found in mapping file 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption\Kbl_Export_Control.map':&#xD;
+ E3:     &#xD;
+ E3:     	- HA_Color1&#xD;
+ E3:     	- HA_Color2&#xD;
+ E3:     	- HA_ConductorWeight&#xD;
+ E3:     	- HA_CSA&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_BaseMaterial&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_InnerDiameter&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_MaxDiameter&#xD;
+ E3:     	- HA_MinDiameter&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Type&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_Gender&#xD;
+ E3:     	- HA_Height&#xD;
+ E3:     	- HA_IsSealable&#xD;
+ E3:     	- HA_Length&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_NofLocks&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Width&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Color1&#xD;
+ E3:     	- HA_Color2&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_ConductorWeight&#xD;
+ E3:     	- HA_CSA&#xD;
+ E3:     	- HA_OuterDiameter&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_Partnumber&#xD;
+ E3:     	- HA_Version&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Color&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_PackagingUnit&#xD;
+ E3:     	- HA_PartNumber&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3:     	- HA_Abbrevation&#xD;
+ E3:     	- HA_Class&#xD;
+ E3:     	- HA_Company&#xD;
+ E3:     	- HA_CSAHigh&#xD;
+ E3:     	- HA_Length&#xD;
+ E3:     	- HA_Material&#xD;
+ E3:     	- HA_Plating&#xD;
+ E3:     	- HA_SupplierPartNo&#xD;
+ E3:     	- HA_Weight&#xD;
+ E3: Starting KBL Harness (Formboard) export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption\Kbl_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\TestData\KBL_DynamicCableOption\Kbl_Export_Control.ini&#xD;
+ E3: Starting export KBL...c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_DynamicCableOption.kbl&#xD;
+ E3: W - Single pin placement of connector '-X3' is not supported! Connector ignored.&#xD;
+ E3: Kbl file saved as: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\KBL_Formboard\Results\kbl_DynamicCableOption.kbl&#xD;
+ E3: Kbl export finished.&#xD;
+ E3: I - Closing project 'KBL' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:11:44---</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="KBL_1" storage="c:\b624fbc6-68a9-499c-92de-3b7a27fecb33\e3.bridgetest.dll" id="70271a98-b7e4-46b2-83cd-d5e28f79778e">
+      <Execution id="9111b943-f654-4fe2-a4f7-270d55382520" />
+      <TestMethod codeBase="C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+KblExport" name="KBL_1" />
+    </UnitTest>
+    <UnitTest name="KBL_DynamicCableOption" storage="c:\b624fbc6-68a9-499c-92de-3b7a27fecb33\e3.bridgetest.dll" id="76e81758-3dea-47be-a4de-7364ed7af2cd">
+      <Execution id="46e01200-e837-46a0-b43d-0e6d322f5405" />
+      <TestMethod codeBase="C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+KblExport" name="KBL_DynamicCableOption" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="70271a98-b7e4-46b2-83cd-d5e28f79778e" executionId="9111b943-f654-4fe2-a4f7-270d55382520" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76e81758-3dea-47be-a4de-7364ed7af2cd" executionId="46e01200-e837-46a0-b43d-0e6d322f5405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\b624fbc6-68a9-499c-92de-3b7a27fecb33\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="8E9AA52A30C4" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="8E9AA52A30C4\ContainerAdministrator_8E9AA52A30C4_2023-10-10.12_10_54.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="59ddd648-f245-4af8-94e8-3cb376e79575" name="ContainerAdministrator@CD9508BA12D3 2023-10-10 12:11:16" runUser="User Manager\ContainerAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-10T12:11:16.5512964+02:00" queuing="2023-10-10T12:11:16.5512964+02:00" start="2023-10-10T12:10:44.0309658+02:00" finish="2023-10-10T12:12:05.1690547+02:00" />
+  <TestSettings name="default" id="c14d2943-7b86-44a5-b9f2-eeaa068c108e">
+    <Deployment runDeploymentRoot="262d23b1ee51b6554ad5e6987b8312f1" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4cb1e779-8268-4f65-ae9b-a53fdb1f648a" testId="062c0d6a-cd3f-4e8a-bb51-ca371ab1b88f" testName="Export_Test_4_QM867" computerName="CD9508BA12D3" duration="00:00:15.7422109" startTime="2023-10-10T12:11:48.8113988+02:00" endTime="2023-10-10T12:12:04.6452793+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cb1e779-8268-4f65-ae9b-a53fdb1f648a">
+      <Output>
+        <StdOut>[12:11:48]  Start Test: Export_Test_4_QM867&#xD;
+[12:11:49]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:53]  Setting current database Standard&#xD;
+[12:11:54]  E3 OpenJob&#xD;
+[12:11:55]  Doing repaircheck...&#xD;
+[12:11:55]  Toolstart-Parameter: -b -d export -INVENTOR -selectionmode HARNESSES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_4.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_4_QM867.log" -processid 14528&#xD;
+[12:11:56]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:12:04]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:12:04]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-12-04_Export_Test_4_QM867_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-12-04_Export_Test_4_QM867_ref_temp.xml&#xD;
+[12:12:04]  Test Export_Test_4_QM867 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:12:04]  Test  3DRoutingBridge is successful!&#xD;
+[12:12:04]  TestCleanup&#xD;
+
+_____________________E3 output below_____________________
+&#xD;
+ E3: E³.series 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit&#xD;
+ E3: Workspace 'C:\Users\ContainerAdministrator\AppData\Roaming\Zuken\E3.series\25.0\workspace-cable-44.xml' could not be found. Workspace could not be opened!&#xD;
+ E3: Project C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting Inventor export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_1.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_1_QM867.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting Inventor export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core RD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core VT of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GYPK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core RDBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHGN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNGN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHYE of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core YEBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHGY of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GYBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHPK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core PKBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHRD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNRD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHBK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W5 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W5 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core 2 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 3 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 4 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 5 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 6 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core GNYE of cable -W8 is not exportable. Skipping.&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_2.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_2_QM867.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting Inventor export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini&#xD;
+ E3: Core BN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core RD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core VT of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GYPK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core RDBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHGN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNGN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHYE of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core YEBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHGY of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core GYBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHPK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core PKBN of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNBU of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHRD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BNRD of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core WHBK of cable -W4 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W5 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W5 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W6 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GY of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core PK of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BU of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W1 is not exportable. Skipping.&#xD;
+ E3: Core BN of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core GN of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core YE of cable -W7 is not exportable. Skipping.&#xD;
+ E3: Core 2 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 3 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 4 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 5 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core 6 of cable -W8 is not exportable. Skipping.&#xD;
+ E3: Core GNYE of cable -W8 is not exportable. Skipping.&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_3.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_3_QM867.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\temp.e3s created.&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: I - Closing project 'temp' without saving modifications...&#xD;
+ E3: I - Opening Project  c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s&#xD;
+ E3: I - Updating internal structures: 200 cycles up to version 2505...&#xD;
+ E3: 2305 &#xD;
+ E3: 2306 &#xD;
+ E3: 2307 &#xD;
+ E3: 2308 &#xD;
+ E3: 2309 &#xD;
+ E3: 2310 &#xD;
+ E3: 2311 &#xD;
+ E3: 2312 &#xD;
+ E3: 2399 &#xD;
+ E3: 2400 &#xD;
+ E3: 2401 &#xD;
+ E3: 2402 &#xD;
+ E3: 2403 &#xD;
+ E3: 2404 &#xD;
+ E3: 2405 &#xD;
+ E3: 2406 &#xD;
+ E3: 2407 &#xD;
+ E3: 2408 &#xD;
+ E3: 2499 &#xD;
+ E3: 2500 &#xD;
+ E3: 2501 &#xD;
+ E3: 2502 &#xD;
+ E3: 2503 &#xD;
+ E3: 2504 &#xD;
+ E3: OK.&#xD;
+ E3: Project c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\BRIDGE.e3s opened.&#xD;
+ E3: W - Project has been opened in READ ONLY mode, you can't save any changes to the existing project!&#xD;
+ E3: I - Item Validation enabled&#xD;
+ E3: I - Validating project&#xD;
+ E3: I - Validation enabled for this project&#xD;
+ E3: repair_check_extended(0)&#xD;
+ E3: --------------------------------------------------------------------------&#xD;
+ E3: consistency check (17)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: dump lost....
+&#xD;
+ E3: ....
+&#xD;
+ E3: new consistency check (45) and dump lost items (46)....
+&#xD;
+ E3: ....
+&#xD;
+ E3: - done -------------------------------------------------------------------
+&#xD;
+ E3: summary:
+       check id   count                    (message) - info 
+--------------------------------------------------------------------&#xD;
+ E3: I - CCID:002578:      2                    (check_symbol_references: symbol '%s' not found in project, referenced by %s) - activate TE_85 to list each info in the report list!&#xD;
+ E3: --------------------------------------------------------------------&#xD;
+ E3: I -      2 total messages with 1 different check ids&#xD;
+ E3: Starting Inventor export&#xD;
+ E3: Mapping file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map&#xD;
+ E3: INI file: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini&#xD;
+ E3: File written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_4.xml'&#xD;
+ E3: Log file written to 'c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_4_QM867.log'&#xD;
+ E3: Export finished.&#xD;
+ E3: I - Closing project 'BRIDGE' without saving modifications...&#xD;
+
+---Finish: 10.10.2023 - 12:12:04---</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df221c08-3739-43c3-984c-0d765b1f2490" testId="9cf5587c-96e3-4044-a8c1-9d680a6b537e" testName="Export_Test_1_QM867" computerName="CD9508BA12D3" duration="00:00:17.4237681" startTime="2023-10-10T12:10:48.9124571+02:00" endTime="2023-10-10T12:11:16.4730028+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df221c08-3739-43c3-984c-0d765b1f2490">
+      <Output>
+        <StdOut>TotalProcessorTime: 00:00:00.0625000&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:49 PM&#xD;
+Cnt: 1&#xD;
+TotalProcessorTime: 00:00:01.0156250&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:49 PM&#xD;
+Cnt: 2&#xD;
+TotalProcessorTime: 00:00:01.9687500&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:49 PM&#xD;
+Cnt: 3&#xD;
+TotalProcessorTime: 00:00:02.9218750&#xD;
+ProcessName: E3.series&#xD;
+StartTime: 10/10/2023 12:10:49 PM&#xD;
+Cnt: 4&#xD;
+---Start: 10.10.2023 - 12:10:58---
+&#xD;
+[12:10:59]  Using E3 2024 (Oct 10 2023 11:15:29 Build 25.00-Develop @264160) 64 Bit, ProcessId 14528&#xD;
+[12:10:59]  Start Test: Export_Test_1_QM867&#xD;
+[12:10:59]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:04]  Setting current database Standard&#xD;
+[12:11:04]  E3 OpenJob&#xD;
+[12:11:05]  Doing repaircheck...&#xD;
+[12:11:06]  Toolstart-Parameter: -b -d export -INVENTOR -selectionmode HARNESS_ASSEMBLIES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_1.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_1_QM867.log" -processid 14528&#xD;
+[12:11:06]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:11:16]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:11:16]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-16_Export_Test_1_QM867_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-16_Export_Test_1_QM867_ref_temp.xml&#xD;
+[12:11:16]  Test Export_Test_1_QM867 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:11:16]  Test  3DRoutingBridge is successful!&#xD;
+[12:11:16]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83e221ea-0461-4381-8c1f-a200927c85d2" testId="9fbf8073-1341-49ad-8d69-279bb210537b" testName="Export_Test_2_QM867" computerName="CD9508BA12D3" duration="00:00:16.0837321" startTime="2023-10-10T12:11:16.5179815+02:00" endTime="2023-10-10T12:11:32.6023839+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83e221ea-0461-4381-8c1f-a200927c85d2">
+      <Output>
+        <StdOut>[12:11:16]  Start Test: Export_Test_2_QM867&#xD;
+[12:11:17]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:21]  Setting current database Standard&#xD;
+[12:11:22]  E3 OpenJob&#xD;
+[12:11:23]  Doing repaircheck...&#xD;
+[12:11:23]  Toolstart-Parameter: -b -d export -INVENTOR -selectionmode ALL_WIRES_AND_CABLES -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_2.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_2_QM867.log" -processid 14528&#xD;
+[12:11:23]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:11:32]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:11:32]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-32_Export_Test_2_QM867_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-32_Export_Test_2_QM867_ref_temp.xml&#xD;
+[12:11:32]  Test Export_Test_2_QM867 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:11:32]  Test  3DRoutingBridge is successful!&#xD;
+[12:11:32]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="94a06656-c37e-4825-ab18-93613cdb953d" testId="afddc0f5-e6da-4c0f-9787-5490de748d9d" testName="Export_Test_3_QM867" computerName="CD9508BA12D3" duration="00:00:16.2057223" startTime="2023-10-10T12:11:32.6043851+02:00" endTime="2023-10-10T12:11:48.8103441+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94a06656-c37e-4825-ab18-93613cdb953d">
+      <Output>
+        <StdOut>[12:11:32]  Start Test: Export_Test_3_QM867&#xD;
+[12:11:33]  Defining database with name Standard...
+Given paths are: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Components.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\symbols.mdb	c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\..\Databases\Standard\Configuration.mdb&#xD;
+[12:11:37]  Setting current database Standard&#xD;
+[12:11:38]  E3 OpenJob&#xD;
+[12:11:39]  Doing repaircheck...&#xD;
+[12:11:39]  Toolstart-Parameter: -b -d export -INVENTOR -selectionmode CABLES_AND_WIRES_GROUPED_BY_ATTRIBUTE -i "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData" -mi "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.ini" -mm "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\TestData\Inventor_Export_Control.map" -filename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\Inventor_Export_Test_3.xml" -logfilename "c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\INVENTOR_Export_Test_3_QM867.log" -processid 14528&#xD;
+[12:11:39]  Tool startet: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe&#xD;
+[12:11:48]  Tool fertig: c:\\appveyor\\bin\\E3.3DRoutingBridge\\Mainline\\bin\\Release\\x64\\E3_3DRoutingBridge.exe : ExitCode 0&#xD;
+[12:11:48]  Start CompareXML: xmlExportFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-48_Export_Test_3_QM867_temp.xml to xmlRefFileName: c:\appveyor\bin\E3.3DRoutingBridge\Mainline\E3.BridgeTest\TestFiles\INVENTOR_Export_QM867\Results\2023-10-10--12-11-48_Export_Test_3_QM867_ref_temp.xml&#xD;
+[12:11:48]  Test Export_Test_3_QM867 for Tool 3DRoutingBridge equal to Reference!&#xD;
+[12:11:48]  Test  3DRoutingBridge is successful!&#xD;
+[12:11:48]  TestCleanup</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Export_Test_4_QM867" storage="c:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\e3.bridgetest.dll" id="062c0d6a-cd3f-4e8a-bb51-ca371ab1b88f">
+      <Execution id="4cb1e779-8268-4f65-ae9b-a53fdb1f648a" />
+      <TestMethod codeBase="C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+INVENTOR" name="Export_Test_4_QM867" />
+    </UnitTest>
+    <UnitTest name="Export_Test_2_QM867" storage="c:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\e3.bridgetest.dll" id="9fbf8073-1341-49ad-8d69-279bb210537b">
+      <Execution id="83e221ea-0461-4381-8c1f-a200927c85d2" />
+      <TestMethod codeBase="C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+INVENTOR" name="Export_Test_2_QM867" />
+    </UnitTest>
+    <UnitTest name="Export_Test_1_QM867" storage="c:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\e3.bridgetest.dll" id="9cf5587c-96e3-4044-a8c1-9d680a6b537e">
+      <Execution id="df221c08-3739-43c3-984c-0d765b1f2490" />
+      <TestMethod codeBase="C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+INVENTOR" name="Export_Test_1_QM867" />
+    </UnitTest>
+    <UnitTest name="Export_Test_3_QM867" storage="c:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\e3.bridgetest.dll" id="afddc0f5-e6da-4c0f-9787-5490de748d9d">
+      <Execution id="94a06656-c37e-4825-ab18-93613cdb953d" />
+      <TestMethod codeBase="C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll" adapterTypeName="executor://mstestadapter/v2" className="E3.BridgeTest.RoutingBridge+INVENTOR" name="Export_Test_3_QM867" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="062c0d6a-cd3f-4e8a-bb51-ca371ab1b88f" executionId="4cb1e779-8268-4f65-ae9b-a53fdb1f648a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cf5587c-96e3-4044-a8c1-9d680a6b537e" executionId="df221c08-3739-43c3-984c-0d765b1f2490" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fbf8073-1341-49ad-8d69-279bb210537b" executionId="83e221ea-0461-4381-8c1f-a200927c85d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afddc0f5-e6da-4c0f-9787-5490de748d9d" executionId="94a06656-c37e-4825-ab18-93613cdb953d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\af4b6fdd-9e76-4074-a56b-e12dc7be8d2c\E3.BridgeTest.dll (Workers: 1, Scope: ClassLevel).&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="CD9508BA12D3" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="CD9508BA12D3\ContainerAdministrator_CD9508BA12D3_2023-10-10.12_10_45.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
